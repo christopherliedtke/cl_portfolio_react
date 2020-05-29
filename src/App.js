@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './assets/img/logo.svg';
+
+import { withNamespaces } from 'react-i18next';
+
 import { Button, Jumbotron } from 'react-bootstrap';
 
-function App() {
+function App({ t }) {
     return (
         <div className="App">
             <header className="App-header">
@@ -14,6 +17,7 @@ function App() {
                     Learn React
                 </a>
             </header>
+            <h1>{t('Welcome to React')}</h1>
             <Button variant="primary">Primary</Button>
             <Jumbotron>
                 <h1>Hello, world!</h1>
@@ -26,4 +30,4 @@ function App() {
     );
 }
 
-export default App;
+export default withNamespaces()(App);
