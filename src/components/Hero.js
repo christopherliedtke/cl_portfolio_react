@@ -1,46 +1,54 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { Link } from 'react-router-dom';
 
-// import { Zoom, Fade } from 'react-reveal';
-// import Typist from 'react-typist';
+import { withTranslation } from 'react-i18next';
 
-export default function Hero() {
+import { Zoom, Fade } from 'react-reveal';
+import Typist from 'react-typist';
+
+function Hero({ t }) {
     return (
-        <div className="home hero container-fuid" id="home" style={{ minHeight: '60vh' }}>
-            {/* <div className="container">
-                <Zoom left duration={2000}>
-                    <img src="/images/christopherliedtke_filter_500x500.jpg" alt="" />
-                </Zoom>
-                <div>
-                    <h1>
-                        <Typist
-                            avgTypingDelay={80}
-                            stdTypingDelay={50}
-                            cursor={{
-                                show: true,
-                                blink: true,
-                                element: '|',
-                                hideWhenDone: true,
-                                hideWhenDoneDelay: 1000,
-                            }}
-                        >
-                            <Typist.Delay ms={2000} />
-                            Hi! <strong>Ich bin Chris –</strong>
-                            <Typist.Delay ms={500} />
-                            <br />
-                            <Typist.Delay ms={1500} />
-                            <span className="highlight">Full Stack Webentwickler</span>
-                            <Typist.Delay ms={800} />
-                            <br /> aus Leidenschaft.
-                        </Typist>
-                    </h1>
-                    <Fade bottom delay={11000}>
-                        <Link to="/#projekte">
-                            <button className="btn-primary">Meine Projekte</button>
-                        </Link>
-                    </Fade>
+        <div className="home hero container-fuid" id="home">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                        <Zoom left duration={2000}>
+                            <img className="m-4" src="/img/christopherliedtke_filter_500x500.jpg" alt="" />
+                        </Zoom>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center p-5 p-lg-2">
+                        <h1>
+                            <Typist
+                                avgTypingDelay={80}
+                                stdTypingDelay={50}
+                                cursor={{
+                                    show: true,
+                                    blink: true,
+                                    element: '|',
+                                    hideWhenDone: true,
+                                    hideWhenDoneDelay: 1000,
+                                }}
+                            >
+                                <Typist.Delay ms={2000} />
+                                Hi! <strong>{t('hero.me')}</strong>
+                                <Typist.Delay ms={500} />
+                                <br />
+                                <Typist.Delay ms={1500} />
+                                <span className="highlight">{t('hero.desc')}</span>
+                                <Typist.Delay ms={800} />
+                                <br /> {t('hero.why')}.
+                            </Typist>
+                        </h1>
+                        <Fade bottom delay={11000}>
+                            <Link to="/#projekte">
+                                <button className="btn btn-primary mt-4">{t('hero.myProjectsBtn')}</button>
+                            </Link>
+                        </Fade>
+                    </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 }
+
+export default withTranslation()(Hero);

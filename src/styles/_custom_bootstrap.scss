@@ -1,6 +1,7 @@
 // Bootstrap variable overrides
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Rasa:300,600&display=swap');
 
+$enable-responsive-font-sizes: true;
 $font-headlines: 'Rasa', sans-serif;
 $font-family-sans-serif: 'Lato', sans-serif;
 
@@ -9,3 +10,5 @@ $dark: #132333;
 
 $primary: #465573;
 $secondary: #d77a65;
+
+$shadow1: 0px 0px 10px 0px rgba(29, 18, 28, 0.37);

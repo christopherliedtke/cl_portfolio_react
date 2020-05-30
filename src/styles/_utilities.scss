@@ -7,3 +7,39 @@
 main {
     flex-grow: 1;
 }
+
+// #Scrollbar
+body::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $primary;
+    border-radius: 10px;
+}
+
+// #Typist cursor
+.Typist .Cursor {
+    display: inline-block;
+
+    &--blinking {
+        opacity: 1;
+        animation: blink 1s linear infinite;
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+}

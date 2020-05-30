@@ -1,15 +1,12 @@
 import React from 'react';
-import { withNamespaces } from 'react-i18next';
 
 import Layout from './components/Layout';
 import Hero from './components/Hero';
 
-function App({ t }) {
+export default function App() {
     return (
         <Layout>
             <Hero />
         </Layout>
     );
 }
-
-export default withNamespaces()(App);

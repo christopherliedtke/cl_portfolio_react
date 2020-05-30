@@ -3,7 +3,7 @@ import React from 'react';
 import Scrollspy from 'react-scrollspy';
 
 import i18n from '../i18n';
-import { withNamespaces } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -39,4 +39,4 @@ function Header({ t }) {
     );
 }
 
-export default withNamespaces()(Header);
+export default withTranslation()(Header);

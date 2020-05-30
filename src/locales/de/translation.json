@@ -4,5 +4,11 @@
         "linkProjects": "Projekte",
         "linkServices": "Ich biete",
         "linkContact": "Kontakt"
+    },
+    "hero": {
+        "me": "Ich bin Chris –",
+        "desc": "Full Stack Webentwickler",
+        "why": "aus Leidenschaft",
+        "myProjectsBtn": "Meine Projekte"
     }
 }
