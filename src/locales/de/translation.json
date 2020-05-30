@@ -1,3 +1,8 @@
 {
-    "Welcome to React": "Willkommen bei React und react-i18next"
+    "menu": {
+        "linkHome": "Home",
+        "linkProjects": "Projekte",
+        "linkServices": "Ich biete",
+        "linkContact": "Kontakt"
+    }
 }

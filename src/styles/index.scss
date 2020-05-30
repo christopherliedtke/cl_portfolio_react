@@ -4,8 +4,17 @@
 
 @import 'utilities';
 
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    background-color: $light;
+    color: $primary;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+@import 'header';

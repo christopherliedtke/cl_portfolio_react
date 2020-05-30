@@ -18,8 +18,9 @@ i18n.use(reactI18nextModule) // passes i18n down to react-i18next
     .init({
         resources,
         lng: 'de',
+        fallbackLng: 'de',
 
-        keySeparator: false, // we do not use keys in form messages.welcome
+        // keySeparator: false, // we do not use keys in form messages.welcome
 
         interpolation: {
             escapeValue: false, // react already safes from xss
