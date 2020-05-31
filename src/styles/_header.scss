@@ -1,4 +1,20 @@
 header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: linear 0.3s;
+
+    &.hide {
+        transform: translateY(-100%);
+    }
+
+    &.bg-header {
+        background-color: $light;
+    }
+
     .navbar-brand {
         font-weight: 700;
         opacity: 0.7;

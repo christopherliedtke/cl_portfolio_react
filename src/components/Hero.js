@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 import { withTranslation } from 'react-i18next';
 
@@ -18,26 +17,35 @@ function Hero({ t }) {
 
     const repeatTypist = () => {
         return (
-            <Typist
-                avgTypingDelay={80}
-                stdTypingDelay={50}
-                cursor={{
-                    show: true,
-                    blink: true,
-                    element: '|',
-                    hideWhenDone: true,
-                    hideWhenDoneDelay: 1000,
-                }}
-            >
-                <Typist.Delay ms={2000} />
-                Hi! <strong>{t('hero.me')}</strong>
-                <Typist.Delay ms={500} />
-                <br />
-                <Typist.Delay ms={1500} />
-                <span className="highlight">{t('hero.desc')}</span>
-                <Typist.Delay ms={800} />
-                <br /> {t('hero.why')}.
-            </Typist>
+            <>
+                <h1>
+                    <Typist
+                        avgTypingDelay={80}
+                        stdTypingDelay={50}
+                        cursor={{
+                            show: true,
+                            blink: true,
+                            element: '|',
+                            hideWhenDone: true,
+                            hideWhenDoneDelay: 1000,
+                        }}
+                    >
+                        <Typist.Delay ms={2000} />
+                        Hi! <strong>{t('hero.me')}</strong>
+                        <Typist.Delay ms={500} />
+                        <br />
+                        <Typist.Delay ms={1500} />
+                        <span className="highlight">{t('hero.desc')}</span>
+                        <Typist.Delay ms={800} />
+                        <br /> {t('hero.why')}.
+                    </Typist>
+                </h1>
+                <Fade bottom delay={11000}>
+                    <a className="btn btn-primary mt-4 align-self-md-start" role="button" href="/#projects">
+                        {t('hero.myProjectsBtn')}
+                    </a>
+                </Fade>
+            </>
         );
     };
 
@@ -50,14 +58,7 @@ function Hero({ t }) {
                             <img className="m-4" src="/img/christopherliedtke_filter_500x500.jpg" alt="" />
                         </Zoom>
                     </div>
-                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-stretch p-5 p-md-2">
-                        <h1>{typist}</h1>
-                        <Fade bottom delay={11000}>
-                            <Link to="/#projekte">
-                                <button className="btn btn-primary mt-4">{t('hero.myProjectsBtn')}</button>
-                            </Link>
-                        </Fade>
-                    </div>
+                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-stretch p-5 p-md-2">{typist}</div>
                 </div>
             </div>
         </div>

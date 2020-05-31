@@ -14,6 +14,7 @@ strong {
     &:focus,
     &:active {
         outline: none;
+        box-shadow: none;
     }
 }
 
@@ -24,8 +25,17 @@ strong {
     color: $primary;
 
     &:hover {
-        border: 2px solid $secondary;
+        border: 2px solid $secondary !important;
+        background-color: transparent !important;
+        color: $secondary !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    &:focus,
+    &:active {
         background-color: transparent;
-        color: $secondary;
+        border: 2px solid $primary;
+        color: $primary;
     }
 }

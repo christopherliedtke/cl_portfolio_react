@@ -10,5 +10,21 @@
         "desc": "Full Stack Webentwickler",
         "why": "aus Leidenschaft",
         "myProjectsBtn": "Meine Projekte"
+    },
+    "projects": {
+        "btnPage": "Seite ansehen",
+        "mobileCarChecker": {
+            "title": "Mobile Car Checker",
+            "subtitle": "Checklist-App – Second Hand Autokauf",
+            "intro": "Mit Mobile Car Checker können Second Hand Autos während der Besichtigung Schritt für Schritt auf potentielle Probleme und Kostenfallen geprüft werden.",
+            "descPar1": "Als mobile Web Application entwickelt kann nach der Registrierung ein Auto mit allgemeinen Daten erstellt werden. Anschließend steht die Checkliste mit 11 Kategorien und etwa 100 Fragen zur Verfügung.",
+            "descPar2": "Über entsprechende Checkboxen können die einzelnen Fragen beantwortet und gegebenenfalls geschätzte Reparaturkosten angegeben werden. Am Ende steht eine Übersicht der Resultate inklusive der summierten Reparaturkosten bereit um sich für oder gegen einen Kauf zu entschließen und zusätzlich über den Preis zu verhandeln.",
+            "features": {
+                "feat1": "Registrierung / Login / Logout / Passwort vergessen / Account löschen",
+                "feat2": "Auto mit allgemeinen Informationen erstellen und bearbeiten",
+                "feat3": "Checkliste mit 11 Kategorien und ca. 100 Fragen plus Zusatzinfos",
+                "feat4": "Auswertung mit Übersicht der Check-Resultate und ggfls. Höhe der Reparaturkosten"
+            }
+        }
     }
 }

@@ -25,7 +25,9 @@ h5,
 h6 {
     font-family: $font-headlines;
     line-height: 1.4;
+    font-weight: bold;
 }
 
 @import 'header';
 @import 'hero';
+@import 'projects-main';
