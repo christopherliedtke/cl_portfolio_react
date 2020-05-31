@@ -25,6 +25,18 @@
                 "feat3": "Checkliste mit 11 Kategorien und ca. 100 Fragen plus Zusatzinfos",
                 "feat4": "Auswertung mit Übersicht der Check-Resultate und ggfls. Höhe der Reparaturkosten"
             }
+        },
+        "zuckerrede": {
+            "title": "Zuckerrede",
+            "subtitle": "Freie Traurednerin",
+            "intro1": "Hinter Zuckerede steckt Katharina Albrecht, die sich mit ihrem jungen Unternehmen als freie Traurednerin für zukünftige Brautpaare selbstständig gemacht hat.",
+            "intro2": "Mit der Webseite sollte eine repräsentative Zentrale und Kontaktstelle für das junge Unternehmen geschaffen werden. Ein sympathisches und gleichzeitig dynamisches Design waren hierbei entscheidende Faktoren, die in enger Abstimmung mit Katharina entwickelt und umgesetzt wurden.",
+            "descPar1": "Bei der Umsetzung kam die Bootstrap Bibliothek in Verbindung mit JQuery zur Darstellung von dynamischen Inhalten und Animationen zum Einsatz.",
+            "testimonial": {
+                "text": "Christopher, ich danke Dir für Dein Können, Deine Ideen und Deine Zuverlässigkeit. Ich hätte mir keinen professionelleren Partner für die Entwicklung meiner Website vorstellen können. Sie ist mega gut geworden und definitiv mit verantwortlich für den erfolgreichen Start meines Unternehmens.",
+                "name": "Katharina Albrecht",
+                "company": "Zuckerrede"
+            }
         }
     }
 }

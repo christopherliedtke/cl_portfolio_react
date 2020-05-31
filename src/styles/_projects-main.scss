@@ -2,6 +2,9 @@
     margin: 4rem 1rem;
 
     .project {
+        // margin-top: 6rem;
+        // margin-bottom: 6rem;
+
         .logo-bg {
             background-blend-mode: overlay;
             background-color: rgba(252, 251, 250, 0.9);
@@ -60,6 +63,39 @@
             flex-wrap: wrap;
         }
 
+        .testimonial {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            margin-top: 3rem;
+
+            .testimonial-bg {
+                position: absolute;
+                top: -25%;
+                left: 6%;
+                font-size: 7rem;
+                opacity: 0.05;
+            }
+
+            img {
+                width: 60px;
+                border-radius: 50%;
+                margin-right: 1rem;
+                box-shadow: $shadow1;
+                z-index: 1;
+            }
+
+            p {
+                text-align: end;
+                font-size: 0.95rem;
+
+                &.testimonial-src {
+                    font-size: 0.98rem;
+                    opacity: 0.9;
+                }
+            }
+        }
+
         .img-set {
             display: flex;
             justify-content: center;
@@ -70,7 +106,7 @@
                 top: 0;
                 right: 2%;
                 width: 90%;
-                min-height: 380px;
+                min-height: 400px;
                 border-radius: 5px;
                 -webkit-box-shadow: $shadow1;
                 -moz-box-shadow: $shadow1;
@@ -81,21 +117,21 @@
                 position: absolute;
                 width: 120%;
                 top: -40px;
-                left: -60px;
+                left: -55px;
             }
 
             .img-tablet {
                 position: absolute;
                 width: 60%;
-                top: 8%;
-                right: 16%;
+                top: 50px;
+                right: 34px;
             }
 
             .img-mobile {
                 position: absolute;
                 width: 35%;
-                top: 32%;
-                right: 18%;
+                top: 150px;
+                right: 40px;
             }
         }
     }

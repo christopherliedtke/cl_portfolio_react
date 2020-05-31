@@ -1,11 +1,11 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy';
 
 import i18n from '../i18n';
 import { withTranslation } from 'react-i18next';
 
 import { Navbar, Nav } from 'react-bootstrap';
+import { FaGlobe } from 'react-icons/fa';
 
 let previousScrollPositionY = document.documentElement.scrollTop;
 
@@ -48,9 +48,10 @@ function Header({ t }) {
                             <Nav.Link href="#services">{t('menu.linkServices')}</Nav.Link>
                             <Nav.Link href="#contact">{t('menu.linkContact')}</Nav.Link>
                         </Scrollspy>
-                        <div className="lang-selector">
+                        <div className="lang-selector d-flex align-items-center">
+                            <FaGlobe className="mr-2" />
                             <span onClick={() => changeLanguage('de')}>DE</span>
-                            {' | '}
+                            <span className="mx-1">|</span>
                             <span onClick={() => changeLanguage('en')}>EN</span>
                         </div>
                     </Nav>

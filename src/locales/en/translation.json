@@ -25,6 +25,18 @@
                 "feat3": "Checklist with 11 categories and about 100 questions plus additional information",
                 "feat4": "Evaluation with overview of the check results and, if applicable, the amount of repair costs"
             }
+        },
+        "zuckerrede": {
+            "title": "Zuckerrede",
+            "subtitle": "Independent Wedding Speaker",
+            "intro1": "Behind Zuckerede is Katharina Albrecht, who has set up her young company as a freelance wedding speaker for prospective bridal couples.",
+            "intro2": "The aim of the website was to create a representative central contact point for the young company. An appealing and at the same time dynamic design were key factors, which were developed and implemented in close cooperation with Katharina.",
+            "descPar1": "During the implementation, the Bootstrap library was used in conjunction with jQuery to display dynamic content and animations.",
+            "testimonial": {
+                "text": "Christopher, I thank you for your skills, your ideas and your commitment. I could not have imagined a more professional partner for the development of my website. It has turned out absolutely great and is definitely responsible for the successful start of my business.",
+                "name": "Katharina Albrecht",
+                "company": "Zuckerrede"
+            }
         }
     }
 }
