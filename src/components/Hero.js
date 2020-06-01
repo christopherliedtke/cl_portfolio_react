@@ -50,7 +50,7 @@ function Hero({ t }) {
     };
 
     return (
-        <div className="home hero container-fuid" id="home">
+        <div className="hero container-fuid pt-5 pt-md-0" id="home">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">

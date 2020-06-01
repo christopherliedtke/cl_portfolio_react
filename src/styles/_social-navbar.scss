@@ -1,0 +1,26 @@
+#social-navbar {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    display: flex;
+
+    a {
+        margin: 0 1rem;
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-right: 0.3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #social-navbar {
+        position: relative;
+        justify-content: center;
+        bottom: -3rem;
+        right: 0;
+        left: 0;
+    }
+}

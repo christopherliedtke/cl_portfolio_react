@@ -1,0 +1,28 @@
+footer {
+    &.footer {
+        padding: 1.5rem 2rem;
+        background-color: $dark;
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+
+            a {
+                margin: 0.5rem;
+                color: $primary;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        &.footer {
+            padding-top: 4rem;
+
+            nav {
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,13 +1,10 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-// import Head from "./head";
 import Header from './Header';
 import Footer from './Footer';
-// import SideNavbar from "./sideNavbar";
-// import SocialNavbar from "./socialNavbar";
-
-// import "../styles/index.scss";
+import SideNavbar from './sideNavbar';
+import SocialNavbar from './socialNavbar';
 
 // if (typeof window !== "undefined") {
 //     // eslint-disable-next-line global-require
@@ -18,9 +15,9 @@ export default function Layout({ children }) {
     return (
         <BrowserRouter>
             <Header />
-            {/* <SideNavbar /> */}
+            <SideNavbar />
             <main>{children}</main>
-            {/* <SocialNavbar /> */}
+            <SocialNavbar />
             <Footer />
         </BrowserRouter>
     );
