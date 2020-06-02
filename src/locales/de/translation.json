@@ -3,15 +3,18 @@
         "linkHome": "Home",
         "linkProjects": "Projekte",
         "linkServices": "Ich biete",
+        "linkAbout": "Über mich",
         "linkContact": "Kontakt"
     },
     "hero": {
         "me": "Ich bin Chris –",
+        "why": "dein professioneller",
         "desc": "Full Stack Webentwickler",
-        "why": "aus Leidenschaft",
-        "myProjectsBtn": "Meine Projekte"
+        "myProjectsBtn": "Meine Projekte",
+        "servicesBtn": "Leistungen"
     },
     "projects": {
+        "btnMoreProjects": "Weitere Projekte",
         "btnPage": "Seite ansehen",
         "mobileCarChecker": {
             "title": "Mobile Car Checker",
@@ -36,6 +39,69 @@
                 "text": "Christopher, ich danke Dir für Dein Können, Deine Ideen und Deine Zuverlässigkeit. Ich hätte mir keinen professionelleren Partner für die Entwicklung meiner Website vorstellen können. Sie ist mega gut geworden und definitiv mit verantwortlich für den erfolgreichen Start meines Unternehmens.",
                 "name": "Katharina Albrecht",
                 "company": "Zuckerrede"
+            }
+        },
+        "mfaMalAnders": {
+            "title": "MFA mal anders",
+            "subtitle": "Job- und Karriereportal für MFAs",
+            "intro1": "MFA mal anders ist ein Karriereportal für medizinische Fachangestellte. Die Webseite bietet ein breites Portfolio an Informationen rund um die Themen Fort- und Weiterbildung sowie eine Jobbörse als zentrales Element.",
+            "intro2": "Die Webseite sollte ein frisches, modernes Design und ein einfaches Interface zum Bereitstellen neuer Inhalte mitbringen. Außerdem sollte eine Möglichkeit geschaffen werden, Stellenanzeigen effizient einzusammeln und zu veröffentlichen.",
+            "descPar1": "Bei der Umsetzung kam das Content-Management-System WordPress in Verbindung mit verschiedenen PlugIns und dem Page Builder Elementor zum Einsatz. Mittels PHP wurden weitere individuelle Anpassungen vorgenommen.",
+            "testimonial": {
+                "text": "Mit der Unterstützung von Chris konnte ich die Plattform erfolgreich realisieren und vermarkten. Innerhalb kurzer Zeit haben wir es geschafft, ganz ohne Werbung mehrere Tausend Aufrufe pro Monat zu generieren.",
+                "name": "Kristin Maurach",
+                "company": "MFA mal anders"
+            }
+        },
+        "stadtUndGruen": {
+            "title": "Stadt und Grün",
+            "subtitle": "Garten- und Landschaftsbau",
+            "intro1": "Stadt und Grün ist ein kleines Unternehmen, das Dienstleistungen rund um Garten- und Landschaftsbau anbietet.",
+            "intro2": "Die Webseite sollte modern, übersichtlich und auf den Punkt gestaltet werden. Eine übersichtliche Darstellung der angebotenen Leistungen sowie eine einfache Möglichkeit zur Kontaktaufnahme sind die zentralen Elemente der Seite.",
+            "descPar1": "",
+            "testimonial": {
+                "text": "Christopher hat uns genau die moderne, übersichtliche Webseite geliefert, die wir uns gewünscht haben. Und das egal, auf welchem Gerät man sich die Seite ansieht.",
+                "name": "Marcel Frischmuth",
+                "company": "Stadt und Grün"
+            }
+        },
+        "travelbook": {
+            "title": "Travelbook – Social Network",
+            "subtitle": "Soziales Netzwerk für Reisende (Sample Projekt)",
+            "intro1": "Travelbook ist ein Social Network für Reisende auf der Welt, die sich miteinander verbinden und in Kontakt bleiben wollen.",
+            "intro2": "Nutzer können sich registrieren, Informationen über sich bereit stellen, sich mich anderen Nutzern verbinden und mit anderen Nutzern in einem öffentlichen oder privaten Chat austauschen.",
+            "features": {
+                "feat1": "Registrierung / Login / Logout / Passwort vergessen / Account löschen",
+                "feat2": "Eigenes Profil mit Bild und Biografie",
+                "feat3": "Suche nach und Profilansicht von anderen Nutzern",
+                "feat4": "Verwaltung von Freunden und Freundschaftsanfragen",
+                "feat5": "Öffentlicher und privater Chat mit anderen Nutzern bzw. eigenen Freunden"
+            }
+        },
+        "mountainView": {
+            "title": "MOUNTAINview – Imageboard",
+            "subtitle": "Imageboard für Bergbilder (Sample Projekt)",
+            "intro1": "MOUNTAINview ist ein Imageboard auf dem Nutzer Bilder von Bergen veröffentlichen und anschauen können.",
+            "intro2": "Nutzer können Bilder mit Titel, Beschreibung, Urheber und Tags hochladen sowie durch die bereits hochgeladenen Bilder scrollen und diese kommentieren bzw. nach spezifischen Tags suchen.",
+            "features": {
+                "feat1": "Hochladen von Bildern mit Titel, Beschreibung, Urheber, Tags",
+                "feat2": "Überblick sämtlicher hochgeladener Bilder",
+                "feat3": "Detailansicht einzelner Bilder inkl. Navigation zu vorherigem/nächstem Bild",
+                "feat4": "Kommentieren von Bildern",
+                "feat5": "Live Benachrichtigung über neu hochgeladene Bilder"
+            }
+        },
+        "freeOrcas": {
+            "title": "Free Orcas – Petition",
+            "subtitle": "Digitale Petition zum Tierschutz (Sample Projekt)",
+            "intro1": "Free Orcas ist eine Petition mit deren Hilfe Nutzer durch ihre digitale Unterschrift zur Befreiung von Orcas aufrufen.",
+            "intro2": "Nutzer können sich mit ihren Daten registrieren und mittels Maus oder Berührung auf einem mobilen Gerät digital unterzeichnen. Nach der Unterschrift können Nutzer sehen, welche anderen Nutzer ebenfalls unterzeichnet haben (optional nach Stadt gefiltert).",
+            "features": {
+                "feat1": "Registrierung / Login / Logout / Account löschen",
+                "feat2": "Anlegen und bearbeiten des eigenen Nutzerprofils (Name, Passwort, Stadt, Alter, Webseite)",
+                "feat3": "Digitales Unterzeichnen per Maus oder Berührung inkl. Entfernen der Unterschrift",
+                "feat4": "Zugriff auf Informationen zu weiteren Unterzeichnern nur bei eigenem Unterzeichnen",
+                "feat5": "Unterzeichner nach Stadt filtern und optionale Verlinkung zu deren Webseite"
             }
         }
     }

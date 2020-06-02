@@ -32,19 +32,27 @@ function Hero({ t }) {
                     >
                         <Typist.Delay ms={2000} />
                         Hi! <strong>{t('hero.me')}</strong>
-                        <Typist.Delay ms={500} />
-                        <br />
                         <Typist.Delay ms={1500} />
-                        <span className="highlight">{t('hero.desc')}</span>
-                        <Typist.Delay ms={800} />
-                        <br /> {t('hero.why')}.
+                        <br />
+                        {t('hero.why')}
+                        <Typist.Delay ms={300} />
+                        <br />
+                        <Typist.Delay ms={500} />
+                        <span className="highlight">{t('hero.desc')}</span>.
                     </Typist>
                 </h1>
-                <Fade bottom delay={11000}>
-                    <a className="btn btn-primary mt-4 align-self-md-start" role="button" href="/#projects">
-                        {t('hero.myProjectsBtn')}
-                    </a>
-                </Fade>
+                <div className="mt-3">
+                    <Fade bottom delay={11000}>
+                        <a className="btn btn-primary mt-2 mr-2 align-self-md-start" role="button" href="/#projects">
+                            {t('hero.myProjectsBtn')}
+                        </a>
+                    </Fade>
+                    <Fade right delay={12000}>
+                        <a className="btn btn-secondary mt-2 align-self-md-start" role="button" href="/#services">
+                            {t('hero.servicesBtn')}
+                        </a>
+                    </Fade>
+                </div>
             </>
         );
     };

@@ -35,7 +35,7 @@ function Header({ t }) {
 
     return (
         <header id="header">
-            <Navbar collapseOnSelect bg="transparent" expand="false" className="px-lg-5 py-lg-3">
+            <Navbar collapseOnSelect="true" bg="transparent" expand="false" className="px-lg-5 py-lg-3">
                 <Navbar.Brand href="#home">CL</Navbar.Brand>
                 <Navbar.Toggle className="ui-hamburger-05" aria-controls="basic-navbar-nav">
                     <span></span>
@@ -46,6 +46,7 @@ function Header({ t }) {
                             <Nav.Link href="#home">{t('menu.linkHome')}</Nav.Link>
                             <Nav.Link href="#projects">{t('menu.linkProjects')}</Nav.Link>
                             <Nav.Link href="#services">{t('menu.linkServices')}</Nav.Link>
+                            <Nav.Link href="#about">{t('menu.linkAbout')}</Nav.Link>
                             <Nav.Link href="#contact">{t('menu.linkContact')}</Nav.Link>
                         </Scrollspy>
                         <div className="lang-selector d-flex align-items-center">

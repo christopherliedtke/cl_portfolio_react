@@ -13,6 +13,7 @@ header {
 
     &.bg-header {
         background-color: $light;
+        box-shadow: $shadow1;
     }
 
     .navbar-brand {

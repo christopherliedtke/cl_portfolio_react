@@ -3,15 +3,18 @@
         "linkHome": "Home",
         "linkProjects": "Projects",
         "linkServices": "Services",
+        "linkAbout": "About",
         "linkContact": "Contact"
     },
     "hero": {
         "me": "I am Chris –",
+        "why": "your professional",
         "desc": "Full Stack Web Developer",
-        "why": "by passion",
-        "myProjectsBtn": "My Projects"
+        "myProjectsBtn": "My Projects",
+        "servicesBtn": "Services"
     },
     "projects": {
+        "btnMoreProjects": "More Projects",
         "btnPage": "Visit Website",
         "mobileCarChecker": {
             "title": "Mobile Car Checker",
@@ -36,6 +39,69 @@
                 "text": "Christopher, I thank you for your skills, your ideas and your commitment. I could not have imagined a more professional partner for the development of my website. It has turned out absolutely great and is definitely responsible for the successful start of my business.",
                 "name": "Katharina Albrecht",
                 "company": "Zuckerrede"
+            }
+        },
+        "mfaMalAnders": {
+            "title": "MFA mal anders",
+            "subtitle": "Job and Career Portal for Medical Assistants",
+            "intro1": "MFA mal anders is a career portal for medical professionals. The website offers a broad portfolio of information about further education and training as well as a job board as a central element.",
+            "intro2": "The website should have a fresh, modern design and a simple interface for providing new content. It should also provide a way to efficiently collect and publish job advertisements.",
+            "descPar1": "For the implementation, the content management system WordPress was used in combination with various plug-ins and the page builder Elementor. Further individual adjustments were made using PHP.",
+            "testimonial": {
+                "text": "With the support of Chris I was able to successfully implement and market the platform. Within a short time we managed to generate several thousand hits per month without any paid advertising.",
+                "name": "Kristin Maurach",
+                "company": "MFA mal anders"
+            }
+        },
+        "stadtUndGruen": {
+            "title": "Stadt und Grün",
+            "subtitle": "Gardening and Landscaping",
+            "intro1": "Stadt und Grün is a small company that offers services around gardening and landscaping.",
+            "intro2": "The website should be modern, clear and to the point. A clear presentation of the services offered as well as an easy way to contact the company are the central elements of the site.",
+            "descPar1": "",
+            "testimonial": {
+                "text": "Christopher provided us with exactly the modern, clear website that we wanted. And it doesn't matter what device you use to view the site.",
+                "name": "Marcel Frischmuth",
+                "company": "Stadt und Grün"
+            }
+        },
+        "travelbook": {
+            "title": "Travelbook – Social Network",
+            "subtitle": "Social Network for Travellers (Sample Project)",
+            "intro1": "Travelbook is a mock social network for travellers around the world who want to connect and stay in touch.",
+            "intro2": "Users can register, provide information about themselves, connect to other users and exchange information with other users in a public or private chat.",
+            "features": {
+                "feat1": "Register / Login / Logout / Password reset / Account deletion",
+                "feat2": "Set up your profile with image and bio",
+                "feat3": "Search for other users and look at their profile",
+                "feat4": "Organise friendships and friendship requests",
+                "feat5": "Public (all users) and private chat (friends only)"
+            }
+        },
+        "mountainView": {
+            "title": "MOUNTAINview – Imageboard",
+            "subtitle": "Imageboard for mountain pictures",
+            "intro1": "MOUNTAINview is a mock image board where users can publish and view images of mountains.",
+            "intro2": "Users can upload images with title, description, author and tags as well as scroll through and comment on already uploaded images or search for specific tags.",
+            "features": {
+                "feat1": "Upload images with title, description, author, tags",
+                "feat2": "Overview of all uploaded images",
+                "feat3": "Detailed view of individual images including navigation to previous/next image",
+                "feat4": "Commenting on images",
+                "feat5": "Live notification of newly uploaded images"
+            }
+        },
+        "freeOrcas": {
+            "title": "Free Orcas – Petition",
+            "subtitle": "Digital Petition to Protect Animals",
+            "intro1": "Free Orcas is a mock petition in which users call for the liberation of orcas with their digital signature.",
+            "intro2": "Users can register with their data and digitally sign with a mouse or touch on a mobile device. After signing, users can see which other users have also signed (optionally filtered by city).",
+            "features": {
+                "feat1": "Register / Login / Logout / Account deletion",
+                "feat2": "Create and edit your own user profile (name, password, city, age, website)",
+                "feat3": "Digital signing by mouse or touch including removal of the signature",
+                "feat4": "Access to information on additional signatories restricted to signers only",
+                "feat5": "Filter signatories by city and optional link to their website"
             }
         }
     }

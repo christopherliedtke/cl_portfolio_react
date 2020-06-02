@@ -1,0 +1,62 @@
+{
+    "react": {
+        "url": "/img/icons/react-brands.svg",
+        "alt": "React.js Logo"
+    },
+    "vue": {
+        "url": "/img/icons/vuejs-brands.svg",
+        "alt": "Vue.js Logo"
+    },
+    "nodeJs": {
+        "url": "/img/icons/node-js-brands.svg",
+        "alt": "Node.js Logo"
+    },
+    "mongoDb": {
+        "url": "/img/icons/mongoDB-brands.svg",
+        "alt": "mongoDB Logo"
+    },
+    "mui": {
+        "url": "/img/icons/mui-brands.svg",
+        "alt": "MUI Logo"
+    },
+    "js": {
+        "url": "/img/icons/js-brands.svg",
+        "alt": "JavaScript Logo"
+    },
+    "html": {
+        "url": "/img/icons/html5-brands.svg",
+        "alt": "HTML5 Logo"
+    },
+    "css": {
+        "url": "/img/icons/css3-brands.svg",
+        "alt": "CSS3 Logo"
+    },
+    "bootstrap": {
+        "url": "/img/icons/bootstrap-brands.svg",
+        "alt": "Bootstrap Logo"
+    },
+    "php": {
+        "url": "/img/icons/php-brands.svg",
+        "alt": "PHP Logo"
+    },
+    "wordpress": {
+        "url": "/img/icons/wordpress-brands.svg",
+        "alt": "WordPress Logo"
+    },
+    "elementor": {
+        "url": "/img/icons/elementor-brands.svg",
+        "alt": "Elementor Logo"
+    },
+    "aws": {
+        "url": "/img/icons/aws-brands.svg",
+        "alt": "Amazon Web Services Logo"
+    },
+    "socketio": {
+        "url": "/img/icons/socketio-brands.svg",
+        "alt": "Socket.IO Logo"
+    },
+    "postgre": {
+        "url": "/img/icons/postgre-brands.svg",
+        "alt": "PostgreSQL Logo"
+    }
+}

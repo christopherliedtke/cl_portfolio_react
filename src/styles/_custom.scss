@@ -12,9 +12,13 @@ strong {
     opacity: 1;
 
     &:focus,
-    &:active {
-        outline: none;
-        box-shadow: none;
+    &:active,
+    &:hover {
+        background-color: inherit;
+        // border: ;
+        color: inherit;
+        outline: none !important;
+        box-shadow: none !important;
     }
 }
 
@@ -28,14 +32,23 @@ strong {
         border: 2px solid $secondary !important;
         background-color: transparent !important;
         color: $secondary !important;
-        outline: none !important;
-        box-shadow: none !important;
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $primary;
+    border: 2px solid $primary;
+    color: $light;
+
+    &:hover {
+        border: 2px solid $primary !important;
+        background-color: transparent !important;
+        color: $primary !important;
     }
 
     &:focus,
     &:active {
-        background-color: transparent;
         border: 2px solid $primary;
-        color: $primary;
     }
 }

@@ -1,4 +1,4 @@
-.projects-main {
+.projects {
     margin: 4rem 1rem;
 
     .project {
@@ -35,24 +35,33 @@
             margin-bottom: 1rem;
         }
 
+        p {
+            margin-bottom: 0.5rem;
+        }
+
+        .icon-box {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
         .stack-icon {
             height: 15px;
             margin-right: 0.6rem;
         }
 
         ul {
-            list-style-type: none;
-            margin: 0 0 0 1rem;
-            padding: 0;
-            line-height: 1.5;
+            list-style: none;
+            margin: 0;
+            padding: 0 0 0 2rem;
 
             li {
-                display: flex;
+                position: relative;
                 margin-bottom: 0.3rem;
 
                 svg {
-                    margin-top: 3px;
-                    margin-right: 0.6rem;
+                    position: absolute;
+                    left: -1.5rem;
+                    top: 3px;
                 }
             }
         }
