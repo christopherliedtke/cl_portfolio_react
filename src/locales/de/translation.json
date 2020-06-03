@@ -104,5 +104,50 @@
                 "feat5": "Unterzeichner nach Stadt filtern und optionale Verlinkung zu deren Webseite"
             }
         }
+    },
+    "services": {
+        "flipcard": {
+            "front": {
+                "item1": {
+                    "title": "Deine Webseite vom Profi",
+                    "content1": "Deine Webseite vom ",
+                    "content2": "ausgebildeten Profi",
+                    "content3": " und erfahrenem Projektmanager!"
+                },
+                "item2": {
+                    "title": "Alles aus einer Hand",
+                    "content1": "Auf Wunsch organisiere ich das ",
+                    "content2": "komplette Projekt",
+                    "content3": " vom Design bis zur fertigen Webseite und darüber hinaus!"
+                },
+                "item3": {
+                    "title": "Moderne Technologien",
+                    "content1": "Du möchtest eine ",
+                    "content2": "beeindruckende Webseite,",
+                    "content3": " die auf allen Geräten toll aussieht? Dann bist Du bei mir genau richtig!"
+                }
+            }
+        },
+        "right": {
+            "title": "Leistungen",
+            "subtitle": "Das Angebot auf einen Blick",
+            "intro1": "Als erfahrener Web Entwickler habe ich bereits eine Vielzahl von Projekten umgesetzt. Daher weiß ich, wie Du auf dem schnellsten und effizientesten Weg zu Deiner perfekten Webseite gelangst.",
+            "intro2": "Von mir bekommst Du genau die individuelle Lösung, die Du zum Erreichen Deiner Ziele benötigst.",
+            "whatYouNeed": "Was benötigst du?",
+            "list": {
+                "item1": "Individuelle Webseite – <span class='bold'>optimiert für alle Geräte</span> vom Smartphone bis zum Desktop PC",
+                "item2": "<span class='bold'>Content Management System</span> zur eigenständigen Pflege von Inhalten",
+                "item3": "<span class='bold'>Datenbanken</span> zur Pflege von z. B. Kundendaten",
+                "item4": "Anbindung an <span class='bold'>externe Schnittstellen</span> (API)",
+                "item5": "<span class='bold'>Suchmaschinenoptimierung</span> für Google",
+                "item6": "Suchmaschinen und Social Media <span class='bold'>Marketing</span>"
+            },
+            "outro": "Du hast weitere spezielle Anforderungen? Kein Problem, lass uns darüber reden!",
+            "btns": {
+                "adv": "Vorteile",
+                "stack": "Technologie Stack",
+                "contact": "Kontakt"
+            }
+        }
     }
 }

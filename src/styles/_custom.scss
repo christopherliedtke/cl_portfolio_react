@@ -33,6 +33,13 @@ strong {
         background-color: transparent !important;
         color: $secondary !important;
     }
+
+    &:focus,
+    &.active {
+        border: 2px solid $secondary !important;
+        background-color: transparent !important;
+        color: $secondary !important;
+    }
 }
 
 .btn-secondary {
@@ -48,7 +55,7 @@ strong {
     }
 
     &:focus,
-    &:active {
+    &.active {
         border: 2px solid $primary;
     }
 }

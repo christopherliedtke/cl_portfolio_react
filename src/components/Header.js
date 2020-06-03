@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Scrollspy from 'react-scrollspy';
 
 import i18n from '../i18n';
@@ -29,15 +29,18 @@ window.addEventListener('scroll', (e) => {
 });
 
 function Header({ t }) {
+    const [navBarExpanded, setNavBarExpanded] = useState(false);
+
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
+        setNavBarExpanded(!navBarExpanded);
     };
 
     return (
         <header id="header">
-            <Navbar collapseOnSelect="true" bg="transparent" expand="false" className="px-lg-5 py-lg-3">
+            <Navbar onSelect={() => setNavBarExpanded(!navBarExpanded)} bg="transparent" expand="false" expanded={navBarExpanded} className="px-lg-5 py-lg-3">
                 <Navbar.Brand href="#home">CL</Navbar.Brand>
-                <Navbar.Toggle className="ui-hamburger-05" aria-controls="basic-navbar-nav">
+                <Navbar.Toggle className="ui-hamburger-05" aria-controls="basic-navbar-nav" onClick={() => setNavBarExpanded(!navBarExpanded)}>
                     <span></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -23,6 +23,40 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+.highlight {
+    background-color: $secondary;
+    color: $light;
+    font-weight: bold;
+    padding: 5px 5px 3px 5px;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.h3-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: $font-family-sans-serif;
+    font-weight: 900;
+    font-size: 9vh;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.07;
+    transform: translate(-10%, -25%);
+}
+
 // #Typist cursor
 .Typist .Cursor {
     display: inline-block;

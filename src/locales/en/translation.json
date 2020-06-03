@@ -104,5 +104,50 @@
                 "feat5": "Filter signatories by city and optional link to their website"
             }
         }
+    },
+    "services": {
+        "flipcard": {
+            "front": {
+                "item1": {
+                    "title": "Your Professional Website",
+                    "content1": "Get your website done by a ",
+                    "content2": "trained professional",
+                    "content3": " with plenty of project experience!"
+                },
+                "item2": {
+                    "title": "One-stop service",
+                    "content1": "If you wish, I am ready to organize the ",
+                    "content2": "entire project",
+                    "content3": " from design to the finished website and beyond!"
+                },
+                "item3": {
+                    "title": "Modern Technologies",
+                    "content1": "You want an ",
+                    "content2": "impressive website",
+                    "content3": " that looks great on any device? Well, you've come to the right place!"
+                }
+            }
+        },
+        "right": {
+            "title": "Services",
+            "subtitle": "The Offer – In a Nutshell",
+            "intro1": "As an experienced web developer I have implemented a variety of projects in the past. This allows me to advise you on the most efficient solution for your specific requirements.",
+            "intro2": "",
+            "whatYouNeed": "What do you need?",
+            "list": {
+                "item1": "Individual website – <span class='bold'>optimized for all devices</span>",
+                "item2": "<span class='bold'>Content Management System</span> for own content management",
+                "item3": "<span class='bold'>Databases</span> for the management of e.g. customer data",
+                "item4": "Connection to <span class='bold'>external APIs</span>",
+                "item5": "<span class='bold'>Search engine optimization</span> for Google",
+                "item6": "Search engines and social media <span class='bold'>marketing</span>"
+            },
+            "outro": "Do you have any additional special requirements? No problem, let's talk!",
+            "btns": {
+                "adv": "Advantages",
+                "stack": "Technology Stack",
+                "contact": "Contact"
+            }
+        }
     }
 }
