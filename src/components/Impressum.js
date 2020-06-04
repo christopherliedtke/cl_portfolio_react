@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { withTranslation } from 'react-i18next';
 
 function Impressum({ t }) {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="impressum container-fuid my-5" id="impressum">
             <div className="container py-5">
