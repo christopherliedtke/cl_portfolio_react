@@ -1,0 +1,46 @@
+.about {
+    overflow-x: hidden;
+
+    h2 {
+        color: $secondary;
+    }
+
+    .right {
+        .summary {
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: $shadow1;
+            background-color: $primary;
+            color: $light;
+
+            img {
+                border-radius: 15px;
+                max-width: 66%;
+                margin-bottom: 1.6rem;
+                box-shadow: $shadow1;
+            }
+
+            h3 {
+                color: $light-accent;
+                margin-bottom: 0.5rem;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0 0 0 2rem;
+
+                li {
+                    position: relative;
+                    margin-bottom: 0.3rem;
+
+                    svg {
+                        position: absolute;
+                        left: -1.5rem;
+                        top: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

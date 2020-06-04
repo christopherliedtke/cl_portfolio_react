@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
 import Layout from './components/Layout';
 import Hero from './components/Hero';
@@ -11,12 +12,20 @@ import Contact from './components/Contact';
 export default function App() {
     return (
         <Layout>
-            <Hero />
-            <ProjectsMain />
-            <ProjectsMore />
-            <Services />
-            <About />
-            <Contact />
+            <Route
+                exact
+                path="/"
+                render={() => (
+                    <>
+                        <Hero />
+                        <ProjectsMain />
+                        <ProjectsMore />
+                        <Services />
+                        <About />
+                        <Contact />
+                    </>
+                )}
+            />
         </Layout>
     );
 }

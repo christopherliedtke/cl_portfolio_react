@@ -29,7 +29,7 @@ const projects = {
 
 function ProjectsMore({ t }) {
     return (
-        <div className="projects projects-more container mb-5 mx-auto px-1">
+        <div className="projects projects-more container mt-0 mb-5 mx-auto px-1">
             <Accordion className="">
                 <Accordion.Toggle className="btn btn-primary mb-5" as={Button} variant="button" eventKey="0">
                     {t('projects.btnMoreProjects')}

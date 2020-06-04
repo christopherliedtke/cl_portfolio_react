@@ -118,7 +118,7 @@
                     "title": "Alles aus einer Hand",
                     "content1": "Auf Wunsch organisiere ich das ",
                     "content2": "komplette Projekt",
-                    "content3": " vom Design bis zur fertigen Webseite und darüber hinaus!"
+                    "content3": " vom ersten Konzept über das Design bis zur fertigen Webseite und darüber hinaus!"
                 },
                 "item3": {
                     "title": "Moderne Technologien",
@@ -149,5 +149,58 @@
                 "contact": "Kontakt"
             }
         }
+    },
+    "about": {
+        "left": {
+            "title": "Über mich",
+            "subtitle": "Auf ein Wort",
+            "par1": "Hi, ich bin Chris – leidenschaftlicher Web Entwickler. Ich liebe es, Produkte aus dem Nichts zu erschaffen. Programmieren gibt mir die einzigartige Möglichkeit, ein digitales Produkt zu schaffen, das nicht nur schön im Auge des Betrachters ist (Front-End) sondern auch sämtliche Funktionalität für ein übergeordnetes System liefert (Back-End).",
+            "par2": "Wo viele Menschen nur eine chaotische Aneinanderreihung von Zahlen und Buchstaben sehen und den Kopf in den Sand stecken, fängt bei mir der Spaß erst an. Aus diesem Grund habe ich meine Leidenschaft für Logik und Ästhetik zum Beruf gemacht. Die digitale Welt von Webseiten und Apps birgt eine unbeschreibliche Vielzahl von Möglichkeiten – aber auch Herausforderungen. Genau da komme ich ins Spiel!",
+            "par3": "Nach einem abgeschlossenem Studium zum Ingenieur für Erneuerbare Energien habe ich für viele Jahre als Projektmanager bei verschiedenen Unternehmen gearbeitet. Ich konnte viel Erfahrung im Erstellen von validen Strategien und Konzepten, aber speziell auch in der effizienten Projektorganisation gewinnen. Gleichzeitig habe ich mich stetig weiter in die Web Entwicklung vertieft, anfangs verschiedene Projekte für Freunde und Bekannte realisiert und mich letztlich dazu entschieden, diesen Weg weiter und noch intensiver zu verfolgen.",
+            "par4": "Das reichte mir jedoch nicht und ich wollte mein technologisches Fundament auf eine noch breitere Basis stellen. So habe ich entschieden eine zusätzliche Intensivausbildung zum Web Entwickler an der bekannten SPICED Academy zu absolvieren. Dank dem bin ich in der Lage auf die unterschiedlichsten Anforderungen meiner Kunden und Partner zu reagieren und das bestmögliche Ergebnis zu schaffen.",
+            "par5": "Mein Auge für's Detail, gleichzeitig ein Blick für's Große und Ganze und der Fakt, dass man sich immer auf mich verlassen kann gehören sicherlich zu den Dingen, die mich ausmachen.",
+            "btnProjects": "Meine Projekte",
+            "btnContact": "Kontakt"
+        },
+        "right": {
+            "inShortTitle": "In Kürze",
+            "inShortText": "Als passionierter Web Entwickler halte ich stets Ausschau nach dem nächsten anspruchsvollen Projekt. Mit Logik und Auge für's Detail habe ich großen Spaß daran, funktionale und gleichzeitig ästhetisch ansprechende Produkte zu gestalten.",
+            "skillsTitle": "Skills",
+            "skillsList": {
+                "item1": "Web Entwicklung & Design",
+                "item2": "Suchmaschinenoptimierung & -marketing (SEO/SEA)",
+                "item3": "Google Analytics Integration",
+                "item4": "Online & Social Media Marketing",
+                "item5": "Projektmanagement"
+            }
+        }
+    },
+    "contact": {
+        "left": {},
+        "right": {
+            "title": "Kontakt",
+            "subtitle": "Get in Touch",
+            "par1": "Hast Du Interesse an einer Zusammenarbeit?",
+            "par2": "Egal ob einfache Webseite oder langfristiges Projekt! Melde Dich und wir besprechen Deine Ideen und Wünsche ganz unverbindlich.",
+            "form": {
+                "name": "Name*",
+                "email": "E-Mail*",
+                "phone": "Telefon",
+                "subject": "Betreff*",
+                "msg": "Deine Nachricht*",
+                "checkbox": {
+                    "preLink": "Ich habe die ",
+                    "link": "Datenschutzerklärung",
+                    "postLink": " zur Kenntnis genommen und stimme zu, dass meine Angaben zur Kontaktaufnahme und für Rückfragen dauerhaft gespeichert werden."
+                },
+                "btnSubmit": "Senden",
+                "success": "Danke für Deine Nachricht!",
+                "error": "Es ist leider ein Fehler aufgetreten. Bitte versuche es später noch einmal oder sende mir direct eine E-Mail."
+            }
+        }
+    },
+    "footer": {
+        "dataProtection": "Datenschutzerklärung",
+        "impressum": "Impressum"
     }
 }

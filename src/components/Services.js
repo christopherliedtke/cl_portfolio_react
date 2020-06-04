@@ -38,7 +38,7 @@ function Services({ t }) {
                                         <FaLaptopCode size={40} />
                                     </div>
                                     <div>
-                                        <h3 className="highlight">{t('services.flipcard.front.item1.title')}</h3>
+                                        <h4 className="highlight">{t('services.flipcard.front.item1.title')}</h4>
                                         <p>
                                             {t('services.flipcard.front.item1.content1')}
                                             <span className="bold">{t('services.flipcard.front.item1.content2')}</span>
@@ -51,7 +51,7 @@ function Services({ t }) {
                                         <FaGift size={40} />
                                     </div>
                                     <div>
-                                        <h3 className="highlight">{t('services.flipcard.front.item2.title')}</h3>
+                                        <h4 className="highlight">{t('services.flipcard.front.item2.title')}</h4>
                                         <p>
                                             {t('services.flipcard.front.item2.content1')}
                                             <span className="bold">{t('services.flipcard.front.item2.content2')}</span>
@@ -64,7 +64,7 @@ function Services({ t }) {
                                         <FaReact size={40} />
                                     </div>
                                     <div>
-                                        <h3 className="highlight">{t('services.flipcard.front.item3.title')}</h3>
+                                        <h4 className="highlight">{t('services.flipcard.front.item3.title')}</h4>
                                         <p>
                                             {t('services.flipcard.front.item3.content1')}
                                             <span className="bold">{t('services.flipcard.front.item3.content2')}</span>
@@ -153,10 +153,10 @@ function Services({ t }) {
                     <div className="col-12 col-lg-6 col-xl-7 order-1 order-lg-2 my-5 px-4 px-lg-5 right position-relative">
                         <h3 className="h3-bg">{t('services.right.title')}</h3>
                         <h2>{t('services.right.title')}</h2>
-                        <h3 className="h3">{t('services.right.subtitle')}</h3>
+                        <h3 className="">{t('services.right.subtitle')}</h3>
                         <p>{t('services.right.intro1')}</p>
                         <p>{t('services.right.intro2')}</p>
-                        <h3 className="h3 underlined mt-5">{t('services.right.whatYouNeed')}</h3>
+                        <h3 className=" underlined mt-5">{t('services.right.whatYouNeed')}</h3>
                         <ul>
                             <li>
                                 <FaCheckSquare /> <span dangerouslySetInnerHTML={{ __html: t('services.right.list.item1') }}></span>

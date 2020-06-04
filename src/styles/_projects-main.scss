@@ -2,9 +2,6 @@
     margin: 4rem 1rem;
 
     .project {
-        // margin-top: 6rem;
-        // margin-bottom: 6rem;
-
         .logo-bg {
             background-blend-mode: overlay;
             background-color: rgba(252, 251, 250, 0.9);
@@ -13,19 +10,9 @@
             background-position: center 15%;
         }
 
-        h3 {
-            font-family: $font-family-sans-serif;
-            font-weight: 400;
-            font-size: 1rem;
-            margin-bottom: 1.1rem;
-            letter-spacing: 0.2rem;
-            text-transform: uppercase;
-        }
-
         h4 {
-            font-family: $font-family-sans-serif;
             font-weight: 400;
-            font-size: 1.5rem;
+            margin-top: 1.5rem;
             margin-bottom: 1rem;
         }
 

@@ -7,7 +7,7 @@ import { FaHome, FaDesktop, FaTasks, FaInfoCircle, FaEnvelope } from 'react-icon
 export default function SideNavbar() {
     return (
         <Nav id="side-navbar" className="d-none d-md-flex">
-            <Scrollspy items={['home', 'projects', 'services', 'contact']} currentClassName="is-current">
+            <Scrollspy items={['home', 'projects', 'services', 'about', 'contact']} currentClassName="is-current">
                 <Nav.Link href="/#home">
                     <FaHome size={20} />
                 </Nav.Link>

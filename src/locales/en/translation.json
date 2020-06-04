@@ -118,7 +118,7 @@
                     "title": "One-stop service",
                     "content1": "If you wish, I am ready to organize the ",
                     "content2": "entire project",
-                    "content3": " from design to the finished website and beyond!"
+                    "content3": " from the first concept through the design phase to the finished website and beyond!"
                 },
                 "item3": {
                     "title": "Modern Technologies",
@@ -149,5 +149,58 @@
                 "contact": "Contact"
             }
         }
+    },
+    "about": {
+        "left": {
+            "title": "About me",
+            "subtitle": "Let's have a Word",
+            "par1": "Hi, I am Chris - passionate web developer. I love to create products out of nothing. Programming gives me the unique opportunity to create a digital product that is not only beautiful in the eye of the end-user (front-end) but also provides all the functionality for a higher-level system (back-end).",
+            "par2": "Where many people only see a chaotic string of numbers and letters and bury their heads in the sand, the fun just starts for me. That's why I have turned my passion for logic and aesthetics into my profession. The digital world of websites and apps holds an incredible variety of possibilities - but also challenges. This is exactly where I come in!",
+            "par3": "After graduating as a renewable energy engineer, I worked for several years as a project manager for various companies. I gained a lot of experience in creating valid strategies and concepts, but especially in efficient project organization. At the same time, I have constantly immersed myself in the field of web development, initially realizing various projects for friends and relatives and finally decided to follow this path further and more intensively.",
+            "par4": "This was not enough for me and I wanted to put my technological foundation on an even broader basis. So I decided to complete an additional intensive training as a web developer at the established SPICED Academy. Thanks to this, I am able to respond to the different requirements set by my customers and partners and create the best possible result.",
+            "par5": "My eye for detail, at the same time an eye for the big picture and the fact that you can always rely on me are certainly among the things that define me.",
+            "btnProjects": "My Projects",
+            "btnContact": "Contact"
+        },
+        "right": {
+            "inShortTitle": "In Short",
+            "inShortText": "As a passionate web developer I am always on the lookout for the next challenging project. With logic and an eye for detail, I enjoy creating functional and at the same time aesthetically pleasing products.",
+            "skillsTitle": "Skills",
+            "skillsList": {
+                "item1": "Web Development & Design",
+                "item2": "Search Engine Optimization & Marketing (SEO/SEA)",
+                "item3": "Google Analytics Integration",
+                "item4": "Online & Social Media Marketing",
+                "item5": "Project Management"
+            }
+        }
+    },
+    "contact": {
+        "left": {},
+        "right": {
+            "title": "Contact",
+            "subtitle": "Get in Touch",
+            "par1": "Interested in working together?",
+            "par2": "No matter if it is a simple website or a long term project! Contact me and we will discuss your ideas and wishes.",
+            "form": {
+                "name": "Name*",
+                "email": "Email*",
+                "phone": "Phone",
+                "subject": "Subject*",
+                "msg": "Your Message*",
+                "checkbox": {
+                    "preLink": "I have taken note of the ",
+                    "link": "privacy policy",
+                    "postLink": " and agree that my contact details will be stored permanently for the purpose of contacting me and for further queries."
+                },
+                "btnSubmit": "Send",
+                "success": "Thank you for your message!",
+                "error": "Unfortunately an error has occurred. Please try again later or send me an e-mail directly."
+            }
+        }
+    },
+    "footer": {
+        "dataProtection": "Privacy Policy",
+        "impressum": "Impressum"
     }
 }

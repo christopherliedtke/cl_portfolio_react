@@ -1,13 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Footer() {
+import { withTranslation } from 'react-i18next';
+
+function Footer({ t }) {
     return (
         <footer className="footer">
             <nav>
-                <Link to="/datenschutzerklaerung">Datenschutzerklärung</Link>
-                <Link to="/impressum">Impressum</Link>
+                <Link to="/data-protection">{t('footer.dataProtection')}</Link>
+                <Link to="/impressum">{t('footer.impressum')}</Link>
             </nav>
         </footer>
     );
 }
+
+export default withTranslation()(Footer);

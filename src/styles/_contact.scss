@@ -1,0 +1,88 @@
+.contact {
+    overflow-x: hidden;
+    background-color: $dark;
+    color: $light;
+
+    .right {
+        h2 {
+            color: $secondary;
+        }
+
+        .a-primary {
+            font-family: $font-headlines;
+            font-size: 1.8rem;
+            color: $light-accent;
+            transition: linear 0.2s;
+
+            &:hover {
+                text-decoration: none;
+                color: $secondary;
+            }
+        }
+
+        input,
+        textarea {
+            color: $dark;
+
+            &:focus {
+                border: 2px solid $secondary;
+            }
+        }
+
+        label {
+            letter-spacing: 0.2rem;
+        }
+
+        .form-check {
+            padding-left: 0.5rem;
+
+            a {
+                color: $light-accent;
+            }
+        }
+
+        /* #Checkbox style */
+        input[type='checkbox'] {
+            display: none;
+        }
+        input[type='checkbox'] + label {
+            width: 32px;
+            height: 20px;
+            border-radius: 20px;
+            border: 2px solid $light-accent;
+            background-color: $danger;
+            display: inline-block;
+            content: '';
+            /* float: left; */
+            margin-right: 5px;
+            transition: background-color 0.5s linear;
+            margin-top: 10px;
+        }
+        input[type='checkbox'] + label:hover {
+            cursor: pointer;
+        }
+        input[type='checkbox'] + label::before {
+            width: 16px;
+            height: 16px;
+            border-radius: 20px;
+            background-color: #fff;
+            display: block;
+            content: '';
+            /* float: left; */
+            margin-right: 5px;
+            transition: margin 0.1s linear;
+            box-shadow: $shadow1;
+        }
+        input[type='checkbox']:checked + label {
+            background-color: $success;
+        }
+        input[type='checkbox']:checked + label::before {
+            margin: 0 0 0 12px;
+        }
+
+        .btn-primary {
+            border-color: $light-accent;
+            color: $light-accent;
+        }
+    }
+}

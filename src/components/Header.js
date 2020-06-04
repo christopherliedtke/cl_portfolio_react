@@ -45,7 +45,7 @@ function Header({ t }) {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Scrollspy items={['home', 'projects', 'services', 'contact']} currentClassName="is-current">
+                        <Scrollspy items={['home', 'projects', 'services', 'about', 'contact']} currentClassName="is-current">
                             <Nav.Link href="#home">{t('menu.linkHome')}</Nav.Link>
                             <Nav.Link href="#projects">{t('menu.linkProjects')}</Nav.Link>
                             <Nav.Link href="#services">{t('menu.linkServices')}</Nav.Link>
