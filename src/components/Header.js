@@ -39,18 +39,18 @@ function Header({ t }) {
     return (
         <header id="header">
             <Navbar onSelect={() => setNavBarExpanded(!navBarExpanded)} bg="transparent" expand="false" expanded={navBarExpanded} className="px-lg-5 py-lg-3">
-                <Navbar.Brand href="#home">CL</Navbar.Brand>
+                <Navbar.Brand href="/#home">CL</Navbar.Brand>
                 <Navbar.Toggle className="ui-hamburger-05" aria-controls="basic-navbar-nav" onClick={() => setNavBarExpanded(!navBarExpanded)}>
                     <span></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Scrollspy items={['home', 'projects', 'services', 'about', 'contact']} currentClassName="is-current">
-                            <Nav.Link href="#home">{t('menu.linkHome')}</Nav.Link>
-                            <Nav.Link href="#projects">{t('menu.linkProjects')}</Nav.Link>
-                            <Nav.Link href="#services">{t('menu.linkServices')}</Nav.Link>
-                            <Nav.Link href="#about">{t('menu.linkAbout')}</Nav.Link>
-                            <Nav.Link href="#contact">{t('menu.linkContact')}</Nav.Link>
+                            <Nav.Link href="/#home">{t('menu.linkHome')}</Nav.Link>
+                            <Nav.Link href="/#projects">{t('menu.linkProjects')}</Nav.Link>
+                            <Nav.Link href="/#services">{t('menu.linkServices')}</Nav.Link>
+                            <Nav.Link href="/#about">{t('menu.linkAbout')}</Nav.Link>
+                            <Nav.Link href="/#contact">{t('menu.linkContact')}</Nav.Link>
                         </Scrollspy>
                         <div className="lang-selector d-flex align-items-center">
                             <FaGlobe className="mr-2" />

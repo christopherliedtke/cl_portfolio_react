@@ -8,10 +8,14 @@ import ProjectsMore from './components/ProjectsMore';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import Impressum from './components/Impressum';
 
 export default function App() {
     return (
         <Layout>
+            <Route path="/privacy-policy" render={() => <PrivacyPolicy />} />
+            <Route path="/impressum" render={() => <Impressum />} />
             <Route
                 exact
                 path="/"

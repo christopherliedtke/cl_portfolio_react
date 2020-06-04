@@ -74,7 +74,7 @@ function Contact({ t }) {
                                 <label className="form-check-label" for="inputCheckbox"></label>
                                 <p>
                                     {t('contact.right.form.checkbox.preLink')}
-                                    <Link to="/data-protection">{t('contact.right.form.checkbox.link')}</Link>
+                                    <Link to="/privacy-policy">{t('contact.right.form.checkbox.link')}</Link>
                                     {t('contact.right.form.checkbox.postLink')}
                                 </p>
                             </div>
