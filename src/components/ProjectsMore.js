@@ -77,13 +77,13 @@ function ProjectsMore({ t }) {
                                     <div className="col-12 col-lg-5 img-set my-5 py-5 pl-5">
                                         <div className="img-background" style={{ backgroundColor: projects.stadtUndGruen.hex }}>
                                             <Fade bottom duration={2000}>
-                                                <img className="img-desktop" src="/img/stadtUndGruen_notebook_800x450.png" alt="Stadt und Grün Dektop Landing Page" />
+                                                <img className="img-desktop" src="/img/StadtUndGruen_notebook_800x450.png" alt="Stadt und Grün Dektop Landing Page" />
                                             </Fade>
                                             <Fade bottom duration={2000} delay={750}>
-                                                <img className="img-tablet " src="/img/stadtUndGruen_tablet_400x553.png" alt="Stadt und Grün Tablet Landing Page" />
+                                                <img className="img-tablet " src="/img/StadtUndGruen_tablet_400x553.png" alt="Stadt und Grün Tablet Landing Page" />
                                             </Fade>
                                             <Fade bottom duration={2000} delay={1500}>
-                                                <img className="img-mobile " src="/img/stadtUndGruen_mobile_300x594.png" alt="Stadt und Grün Mobile Landing Page" />
+                                                <img className="img-mobile " src="/img/StadtUndGruen_mobile_300x594.png" alt="Stadt und Grün Mobile Landing Page" />
                                             </Fade>
                                         </div>
                                     </div>

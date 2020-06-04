@@ -118,13 +118,13 @@ function ProjectsMain({ t }) {
                     <div className="col-12 col-lg-5 img-set pl-5 my-5 py-5">
                         <div className="img-background" style={{ backgroundColor: projects.zuckerrede.hex }}>
                             <Fade bottom duration={2000}>
-                                <img className="img-desktop" src="/img/zuckerrede_notebook_800x450.png" alt="Zuckerrede Dektop Landing Page" />
+                                <img className="img-desktop" src="/img/Zuckerrede_notebook_800x450.png" alt="Zuckerrede Dektop Landing Page" />
                             </Fade>
                             <Fade bottom duration={2000} delay={750}>
-                                <img className="img-tablet " src="/img/zuckerrede_tablet_400x553.png" alt="Zuckerrede Tablet Landing Page" />
+                                <img className="img-tablet " src="/img/Zuckerrede_tablet_400x553.png" alt="Zuckerrede Tablet Landing Page" />
                             </Fade>
                             <Fade bottom duration={2000} delay={1500}>
-                                <img className="img-mobile " src="/img/zuckerrede_mobile_300x594.png" alt="Zuckerrede Mobile Landing Page" />
+                                <img className="img-mobile " src="/img/Zuckerrede_mobile_300x594.png" alt="Zuckerrede Mobile Landing Page" />
                             </Fade>
                         </div>
                     </div>
@@ -170,13 +170,13 @@ function ProjectsMain({ t }) {
                     <div className="col-12 col-lg-5 img-set pl-5 my-5 py-5">
                         <div className="img-background" style={{ backgroundColor: projects.mfaMalAnders.hex }}>
                             <Fade bottom duration={2000}>
-                                <img className="img-desktop" src="/img/mfaMalAnders_notebook_800x450.png" alt="MFA mal anders Dektop Landing Page" />
+                                <img className="img-desktop" src="/img/MfaMalAnders_notebook_800x450.png" alt="MFA mal anders Dektop Landing Page" />
                             </Fade>
                             <Fade bottom duration={2000} delay={750}>
-                                <img className="img-tablet " src="/img/mfaMalAnders_tablet_400x553.png" alt="MFA mal anders Tablet Landing Page" />
+                                <img className="img-tablet " src="/img/MfaMalAnders_tablet_400x553.png" alt="MFA mal anders Tablet Landing Page" />
                             </Fade>
                             <Fade bottom duration={2000} delay={1500}>
-                                <img className="img-mobile " src="/img/mfaMalAnders_mobile_300x594.png" alt="MFA mal anders Mobile Landing Page" />
+                                <img className="img-mobile " src="/img/MfaMalAnders_mobile_300x594.png" alt="MFA mal anders Mobile Landing Page" />
                             </Fade>
                         </div>
                     </div>
