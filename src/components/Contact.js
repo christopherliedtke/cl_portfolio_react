@@ -50,28 +50,28 @@ function Contact({ t }) {
                         </Fade>
                         <form onSubmit={submitForm} className="my-3" method="POST" action="https://formspree.io/xdozaolp" target="_self" id="contactForm">
                             <div className="form-group">
-                                <label for="inputName">{t('contact.right.form.name')}</label>
+                                <label htmlFor="inputName">{t('contact.right.form.name')}</label>
                                 <input type="text" name="name" className="form-control" id="inputName" required />
                             </div>
                             <div className="form-group">
-                                <label for="inputEmail">{t('contact.right.form.email')}</label>
+                                <label htmlFor="inputEmail">{t('contact.right.form.email')}</label>
                                 <input type="email" name="email" className="form-control" id="inputEmail" required />
                             </div>
                             <div className="form-group">
-                                <label for="inputPhone">{t('contact.right.form.phone')}</label>
+                                <label htmlFor="inputPhone">{t('contact.right.form.phone')}</label>
                                 <input type="tel" name="phone" className="form-control" id="inputPhone" />
                             </div>
                             <div className="form-group">
-                                <label for="inputSubject">{t('contact.right.form.subject')}</label>
+                                <label htmlFor="inputSubject">{t('contact.right.form.subject')}</label>
                                 <input type="text" name="subject" className="form-control" id="inputSubject" required />
                             </div>
                             <div className="form-group">
-                                <label for="inputMessage">{t('contact.right.form.msg')}</label>
+                                <label htmlFor="inputMessage">{t('contact.right.form.msg')}</label>
                                 <textarea name="message" className="form-control" id="inputMessage" rows="5" required></textarea>
                             </div>
                             <div className="form-group form-check">
                                 <input type="checkbox" name="checkbox" className="form-check-input" id="inputCheckbox" required />
-                                <label className="form-check-label" for="inputCheckbox"></label>
+                                <label className="form-check-label" htmlFor="inputCheckbox"></label>
                                 <p>
                                     {t('contact.right.form.checkbox.preLink')}
                                     <Link to="/privacy-policy">{t('contact.right.form.checkbox.link')}</Link>

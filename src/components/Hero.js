@@ -66,7 +66,7 @@ function Hero({ t }) {
                             <img className="m-4" src="/img/christopherliedtke_filter_500x500.jpg" alt="" />
                         </Zoom>
                     </div>
-                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-stretch p-5 p-md-2">{typist}</div>
+                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start align-items-md-stretch p-5 p-md-2">{typist}</div>
                 </div>
             </div>
         </div>
