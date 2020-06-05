@@ -23,7 +23,7 @@ const projects = {
     },
     freeOrcas: {
         hex: '#E0B080',
-        stackIcons: ['postgre', 'nodeJs', 'js', 'html', 'css'],
+        stackIcons: ['nodeJs', 'postgre', 'js', 'html', 'css'],
     },
 };
 
@@ -103,6 +103,7 @@ function ProjectsMore({ t }) {
                                                 return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
                                             })}
                                         </div>
+                                        <p>{t('projects.travelbook.descPar1')}</p>
                                         <h4>Features</h4>
                                         <ul>
                                             <li>
@@ -162,6 +163,7 @@ function ProjectsMore({ t }) {
                                                 return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
                                             })}
                                         </div>
+                                        <p>{t('projects.mountainView.descPar1')}</p>
                                         <h4>Features</h4>
                                         <ul>
                                             <li>
@@ -218,6 +220,7 @@ function ProjectsMore({ t }) {
                                                 return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
                                             })}
                                         </div>
+                                        <p>{t('projects.freeOrcas.descPar1')}</p>
                                         <h4>Features</h4>
                                         <ul>
                                             <li>

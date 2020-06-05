@@ -8,7 +8,7 @@
     },
     "hero": {
         "me": "I am Chris –",
-        "why": "your professional",
+        "why": "your competent",
         "desc": "Full Stack Web Developer",
         "myProjectsBtn": "My Projects",
         "servicesBtn": "Services"
@@ -19,22 +19,23 @@
         "mobileCarChecker": {
             "title": "Mobile Car Checker",
             "subtitle": "Checklist-App – Second Hand Car Buying Guide",
-            "intro": "With Mobile Car Checker second hand cars can be checked step by step during the inspection for potential problems and money pits.",
-            "descPar1": "With this mobile Web application you start by creating a car with general data after your registration. Next, the checklist with 11 categories and about 100 questions is available to you.",
-            "descPar2": "The individual questions can be answered via corresponding checkboxes and, if applicable, estimated repair costs can be specified. At the end, an overview of the results, including the total repair costs, is available to help you decide for or against a purchase. You'll have a stronger position to negotiate the price as well.",
+            "intro1": "Mobile Car Checker allows you to check your next potential second hand car step by step during your visit to uncover potential problems and cost traps.",
+            "intro2": "The mobile web application can be used with any standard web browser. After registration, the app provides the user with a structured checklist of 11 categories and about 100 questions.",
+            "intro3": "Once the user has created a car with basic data, he or she is guided through the individual questions and is given advice on how to complete them. If necessary, estimated repair costs can be provided. The user is explicitly informed about so-called \"dealbreaker questions\". Finally, the user receives an overview of the results including the total repair costs in order to decide whether to buy or not and to negotiate the price accordingly.",
+            "descPar1": "The Single Page Application (SPA) was developed using React.js. The material UI framework served as the basis for the front-end design. For user authentication, data processing and storage Node.js/Express was used in combination with the mongoDB database system.",
             "features": {
-                "feat1": "Registration / Login / Logout / Password reset / Account deletion",
-                "feat2": "Create and edit a car with general information",
-                "feat3": "Checklist with 11 categories and about 100 questions plus additional information",
-                "feat4": "Evaluation with overview of the check results and, if applicable, the amount of repair costs"
+                "feat1": "User authentication / password forgotten / delete account",
+                "feat2": "Creation of car(s) with basic and additional data",
+                "feat3": "Performing the checks with 11 categories and about 100 questions plus additional information",
+                "feat4": "Evaluation with overview of the check results and, where applicable, the amount of repair costs"
             }
         },
         "zuckerrede": {
             "title": "Zuckerrede",
             "subtitle": "Independent Wedding Speaker",
-            "intro1": "Behind Zuckerede is Katharina Albrecht, who has set up her young company as a freelance wedding speaker for prospective bridal couples.",
-            "intro2": "The aim of the website was to create a representative central contact point for the young company. An appealing and at the same time dynamic design were key factors, which were developed and implemented in close cooperation with Katharina.",
-            "descPar1": "During the implementation, the Bootstrap library was used in conjunction with jQuery to display dynamic content and animations.",
+            "intro1": "The person behind Zuckerede is Katharina Albrecht, who has set up her own business as a freelance wedding speaker for future bridal couples.",
+            "intro2": "The website provides a representative hub and contact point for the young company. A appealing yet interactive design was developed and implemented in close cooperation with Katharina.",
+            "descPar1": "For the implementation of the website, the Bootstrap library was used in combination with JQuery to display interactive content and animations.",
             "testimonial": {
                 "text": "Christopher, I thank you for your skills, your ideas and your commitment. I could not have imagined a more professional partner for the development of my website. It has turned out absolutely great and is definitely responsible for the successful start of my business.",
                 "name": "Katharina Albrecht",
@@ -44,11 +45,11 @@
         "mfaMalAnders": {
             "title": "MFA mal anders",
             "subtitle": "Job and Career Portal for Medical Assistants",
-            "intro1": "MFA mal anders is a career portal for medical professionals. The website offers a broad portfolio of information about further education and training as well as a job board as a central element.",
-            "intro2": "The website should have a fresh, modern design and a simple interface for providing new content. It should also provide a way to efficiently collect and publish job advertisements.",
-            "descPar1": "For the implementation, the content management system WordPress was used in combination with various plug-ins and the page builder Elementor. Further individual adjustments were made using PHP.",
+            "intro1": "MFA mal anders is a job and career portal for medical professionals. The website offers a broad portfolio of information about professional development and a job board as a central element.",
+            "intro2": "The website offers a fresh, modern design as well as a simple interface for providing new content. It also provides the possibility to efficiently collect and publish job ads from users. In addition, among other things, the content was optimised with regard to placement in search engines and a recording of usage statistics was set up.",
+            "descPar1": "The implementation was based on the content management system WordPress in combination with various plug-ins and the Elementor page builder. Further individual adjustments were made using PHP.",
             "testimonial": {
-                "text": "With the support of Chris I was able to successfully implement and market the platform. Within a short time we managed to generate several thousand hits per month without any paid advertising.",
+                "text": "With the support of Chris I was able to successfully implement and market the platform. Within a short period of time we managed to generate several thousand hits per month without any paid advertising. His insights have been of immense help",
                 "name": "Kristin Maurach",
                 "company": "MFA mal anders"
             }
@@ -58,7 +59,7 @@
             "subtitle": "Gardening and Landscaping",
             "intro1": "Stadt und Grün is a small company that offers services around gardening and landscaping.",
             "intro2": "The website should be modern, clear and to the point. A clear presentation of the services offered as well as an easy way to contact the company are the central elements of the site.",
-            "descPar1": "",
+            "descPar1": "For the static website the Bootstrap library was used in combination with JQuery to display interactive content and animations.",
             "testimonial": {
                 "text": "Christopher provided us with exactly the modern, clear website that we wanted. And it doesn't matter what device you use to view the site.",
                 "name": "Marcel Frischmuth",
@@ -70,8 +71,9 @@
             "subtitle": "Social Network for Travellers (Sample Project)",
             "intro1": "Travelbook is a mock social network for travellers around the world who want to connect and stay in touch.",
             "intro2": "Users can register, provide information about themselves, connect to other users and exchange information with other users in a public or private chat.",
+            "descPar1": "React.js was used to implement the Single Page Application (SPA) in the front-end. The back-end logic was implemented using Node.js/Express. While user data is stored in a PostgreSQL database, image uploads are managed via Amazon Web Services (AWS) S3. For real-time chat, web sockets are used, especially Socket.IO.",
             "features": {
-                "feat1": "Register / Login / Logout / Password reset / Account deletion",
+                "feat1": "User authentication / password forgotten / delete account",
                 "feat2": "Set up your profile with image and bio",
                 "feat3": "Search for other users and look at their profile",
                 "feat4": "Organise friendships and friendship requests",
@@ -83,6 +85,7 @@
             "subtitle": "Imageboard for mountain pictures",
             "intro1": "MOUNTAINview is a mock image board where users can publish and view images of mountains.",
             "intro2": "Users can upload images with title, description, author and tags as well as scroll through and comment on already uploaded images or search for specific tags.",
+            "descPar1": "The Imageboard was built on the basis of Vue.js as a Single Page Application (SPA). The back-end logic was implemented using Node.js/Express, while PostgreSQL and Amazon Web Services (AWS) S3 were used to store and provide data and images.",
             "features": {
                 "feat1": "Upload images with title, description, author, tags",
                 "feat2": "Overview of all uploaded images",
@@ -96,8 +99,9 @@
             "subtitle": "Digital Petition to Protect Animals",
             "intro1": "Free Orcas is a mock petition in which users call for the liberation of orcas with their digital signature.",
             "intro2": "Users can register with their data and digitally sign with a mouse or touch on a mobile device. After signing, users can see which other users have also signed (optionally filtered by city).",
+            "descPar1": "In this project, Node.js/Express was also used in combination with PostgreSQL for the back-end. JQuery and customized CSS were used in the front-end.",
             "features": {
-                "feat1": "Register / Login / Logout / Account deletion",
+                "feat1": "User authentication / delete account",
                 "feat2": "Create and edit your own user profile (name, password, city, age, website)",
                 "feat3": "Digital signing by mouse or touch including removal of the signature",
                 "feat4": "Access to information on additional signatories restricted to signers only",

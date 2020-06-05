@@ -8,7 +8,7 @@
     },
     "hero": {
         "me": "Ich bin Chris –",
-        "why": "dein professioneller",
+        "why": "dein kompetenter",
         "desc": "Full Stack Webentwickler",
         "myProjectsBtn": "Meine Projekte",
         "servicesBtn": "Leistungen"
@@ -19,13 +19,14 @@
         "mobileCarChecker": {
             "title": "Mobile Car Checker",
             "subtitle": "Checklist-App – Second Hand Autokauf",
-            "intro": "Mit Mobile Car Checker können Second Hand Autos während der Besichtigung Schritt für Schritt auf potentielle Probleme und Kostenfallen geprüft werden.",
-            "descPar1": "Als mobile Web Application entwickelt kann nach der Registrierung ein Auto mit allgemeinen Daten erstellt werden. Anschließend steht die Checkliste mit 11 Kategorien und etwa 100 Fragen zur Verfügung.",
-            "descPar2": "Über entsprechende Checkboxen können die einzelnen Fragen beantwortet und gegebenenfalls geschätzte Reparaturkosten angegeben werden. Am Ende steht eine Übersicht der Resultate inklusive der summierten Reparaturkosten bereit um sich für oder gegen einen Kauf zu entschließen und zusätzlich über den Preis zu verhandeln.",
+            "intro1": "Mit Mobile Car Checker kannst Du Dein nächstes potentielles Second Hand Auto während der Besichtigung Schritt für Schritt checken, um potentielle Probleme und Kostenfallen aufzudecken.",
+            "intro2": "Die mobile Web Applikation kann über jeden gängigen Webbrowser genutzt werden. Die App stellt dem Nutzer nach der Registrierung eine strukturierte Checkliste mit 11 Kategorien und etwa 100 Fragen zur Verfügung.",
+            "intro3": "Nachdem der Nutzer ein Auto mit Basisdaten angelegt hat, wird er durch die einzelnen Fragen geführt und bekommt Hinweise zur Beantwortung. Gegebenenfalls können zudem geschätzte Reparaturkosten angegeben werden. Auf sogenannte \"Dealbreaker Fragen\" wird der Nutzer explizit hingewiesen. Zuletzt erhält der Nutzer eine Übersicht der Resultate inklusive der summierten Reparaturkosten, um sich für oder gegen einen Kauf zu entschließen und entsprechend über den Preis zu verhandeln.",
+            "descPar1": "Mittels React.js wurde die Single Page Application (SPA) entwickelt. Das Material UI Framework diente als Basis für das Front-End Design. Zur Nutzerauthentifizierung, Datenverarbeitung und -speicherung wurde Node.js/Express in Verbindung mit dem mongoDB Datenbanksystem verwendet.",
             "features": {
-                "feat1": "Registrierung / Login / Logout / Passwort vergessen / Account löschen",
-                "feat2": "Auto mit allgemeinen Informationen erstellen und bearbeiten",
-                "feat3": "Checkliste mit 11 Kategorien und ca. 100 Fragen plus Zusatzinfos",
+                "feat1": "Nutzerauthentifizierung / Passwort vergessen / Account löschen",
+                "feat2": "Erstellen von Auto(s) mit Basis- und Zusatzdaten",
+                "feat3": "Durchführen der Checks mit 11 Kategorien und ca. 100 Fragen plus Zusatzinfos",
                 "feat4": "Auswertung mit Übersicht der Check-Resultate und ggfls. Höhe der Reparaturkosten"
             }
         },
@@ -33,8 +34,8 @@
             "title": "Zuckerrede",
             "subtitle": "Freie Traurednerin",
             "intro1": "Hinter Zuckerede steckt Katharina Albrecht, die sich mit ihrem jungen Unternehmen als freie Traurednerin für zukünftige Brautpaare selbstständig gemacht hat.",
-            "intro2": "Mit der Webseite sollte eine repräsentative Zentrale und Kontaktstelle für das junge Unternehmen geschaffen werden. Ein sympathisches und gleichzeitig dynamisches Design waren hierbei entscheidende Faktoren, die in enger Abstimmung mit Katharina entwickelt und umgesetzt wurden.",
-            "descPar1": "Bei der Umsetzung kam die Bootstrap Bibliothek in Verbindung mit JQuery zur Darstellung von dynamischen Inhalten und Animationen zum Einsatz.",
+            "intro2": "Mit der Webseite wurde eine repräsentative Zentrale und Kontaktstelle für das junge Unternehmen geschaffen. Ein sympathisches und gleichzeitig interaktives Design wurden in enger Abstimmung mit Katharina entwickelt und umgesetzt.",
+            "descPar1": "Bei der Implementierung der Webseite kam die Bootstrap Bibliothek in Verbindung mit JQuery zur Darstellung von interaktiven Inhalten und Animationen zum Einsatz.",
             "testimonial": {
                 "text": "Christopher, ich danke Dir für Dein Können, Deine Ideen und Deine Zuverlässigkeit. Ich hätte mir keinen professionelleren Partner für die Entwicklung meiner Website vorstellen können. Sie ist mega gut geworden und definitiv mit verantwortlich für den erfolgreichen Start meines Unternehmens.",
                 "name": "Katharina Albrecht",
@@ -44,9 +45,9 @@
         "mfaMalAnders": {
             "title": "MFA mal anders",
             "subtitle": "Job- und Karriereportal für MFAs",
-            "intro1": "MFA mal anders ist ein Karriereportal für medizinische Fachangestellte. Die Webseite bietet ein breites Portfolio an Informationen rund um die Themen Fort- und Weiterbildung sowie eine Jobbörse als zentrales Element.",
-            "intro2": "Die Webseite sollte ein frisches, modernes Design und ein einfaches Interface zum Bereitstellen neuer Inhalte mitbringen. Außerdem sollte eine Möglichkeit geschaffen werden, Stellenanzeigen effizient einzusammeln und zu veröffentlichen.",
-            "descPar1": "Bei der Umsetzung kam das Content-Management-System WordPress in Verbindung mit verschiedenen PlugIns und dem Page Builder Elementor zum Einsatz. Mittels PHP wurden weitere individuelle Anpassungen vorgenommen.",
+            "intro1": "MFA mal anders ist ein Job- und Karriereportal für medizinische Fachangestellte. Die Webseite bietet ein breites Portfolio an Informationen rund um die Themen Fort- und Weiterbildung sowie eine Jobbörse als zentrales Element.",
+            "intro2": "Die Webseite bietet ein frisches, modernes Design sowie ein einfaches Interface zum Bereitstellen neuer Inhalte. Außerdem gibt es die Möglichkeit, Stellenanzeigen effizient von Nutzern einzusammeln und zu veröffentlichen. Weiterhin wurden unter anderem die Inhalte hinsichtlich einer Platzierung in Suchmaschinen optimiert und eine Erfassung der Nutzungsstatistiken eingerichtet.",
+            "descPar1": "Bei der Umsetzung wurde auf das Content-Management-System WordPress in Verbindung mit verschiedenen PlugIns und dem Page Builder Elementor gesetzt. Mittels PHP wurden weitere individuelle Anpassungen vorgenommen.",
             "testimonial": {
                 "text": "Mit der Unterstützung von Chris konnte ich die Plattform erfolgreich realisieren und vermarkten. Innerhalb kurzer Zeit haben wir es geschafft, ganz ohne Werbung mehrere Tausend Aufrufe pro Monat zu generieren.",
                 "name": "Kristin Maurach",
@@ -56,11 +57,11 @@
         "stadtUndGruen": {
             "title": "Stadt und Grün",
             "subtitle": "Garten- und Landschaftsbau",
-            "intro1": "Stadt und Grün ist ein kleines Unternehmen, das Dienstleistungen rund um Garten- und Landschaftsbau anbietet.",
-            "intro2": "Die Webseite sollte modern, übersichtlich und auf den Punkt gestaltet werden. Eine übersichtliche Darstellung der angebotenen Leistungen sowie eine einfache Möglichkeit zur Kontaktaufnahme sind die zentralen Elemente der Seite.",
-            "descPar1": "",
+            "intro1": "Stadt und Grün ist ein Unternehmen, das Dienstleistungen rund um Garten- und Landschaftsbau anbietet.",
+            "intro2": "Die Webseite wurde modern, übersichtlich und auf den Punkt gestaltet. Eine übersichtliche Darstellung der angebotenen Leistungen sowie eine einfache Möglichkeit zur Kontaktaufnahme sind die zentralen Elemente der Seite.",
+            "descPar1": "Für die statische Webseite kam die Bootstrap Bibliothek in Verbindung mit JQuery zur Darstellung von interaktiven Inhalten und Animationen zum Einsatz.",
             "testimonial": {
-                "text": "Christopher hat uns genau die moderne, übersichtliche Webseite geliefert, die wir uns gewünscht haben. Und das egal, auf welchem Gerät man sich die Seite ansieht.",
+                "text": "Christopher hat uns genau die moderne, übersichtliche Webseite geliefert, die wir uns gewünscht haben. Dank ihm konnten wir unsere alte, verstaubte Webseite ablösen.",
                 "name": "Marcel Frischmuth",
                 "company": "Stadt und Grün"
             }
@@ -69,9 +70,10 @@
             "title": "Travelbook – Social Network",
             "subtitle": "Soziales Netzwerk für Reisende (Sample Projekt)",
             "intro1": "Travelbook ist ein Social Network für Reisende auf der Welt, die sich miteinander verbinden und in Kontakt bleiben wollen.",
-            "intro2": "Nutzer können sich registrieren, Informationen über sich bereit stellen, sich mich anderen Nutzern verbinden und mit anderen Nutzern in einem öffentlichen oder privaten Chat austauschen.",
+            "intro2": "Nutzer können sich registrieren, Informationen über sich bereit stellen, sich miteinander verbinden und mit anderen Nutzern in einem öffentlichen oder privaten Chat austauschen.",
+            "descPar1": "React.js wurde zur Umsetzung der Single Page Application (SPA) im Front-End eingesetzt. Mittels Node.js/Express wurder die Back-End Logik implementiert. Während Nutzerdaten in einer PostgreSQL Datenbank gespeichert sind, werden Bild-Uploads über Amazon Web Services (AWS) S3 gemanagt. Für den Echtzeit-Chat kommen Websockets, hier speziell Socket.IO zu Einsatz.",
             "features": {
-                "feat1": "Registrierung / Login / Logout / Passwort vergessen / Account löschen",
+                "feat1": "Nutzerauthentifizierung / Passwort vergessen / Account löschen",
                 "feat2": "Eigenes Profil mit Bild und Biografie",
                 "feat3": "Suche nach und Profilansicht von anderen Nutzern",
                 "feat4": "Verwaltung von Freunden und Freundschaftsanfragen",
@@ -83,6 +85,7 @@
             "subtitle": "Imageboard für Bergbilder (Sample Projekt)",
             "intro1": "MOUNTAINview ist ein Imageboard auf dem Nutzer Bilder von Bergen veröffentlichen und anschauen können.",
             "intro2": "Nutzer können Bilder mit Titel, Beschreibung, Urheber und Tags hochladen sowie durch die bereits hochgeladenen Bilder scrollen und diese kommentieren bzw. nach spezifischen Tags suchen.",
+            "descPar1": "Das Imageboard wurde auf Basis von Vue.js als Single Page Application (SPA) aufgebaut. Die Back-End Logik wurde mittels Node.js/Express implementiert, während für die Speicherung und Bereitstellung von Daten und Bildern PostgreSQL und Amazon Web Services (AWS) S3 genutzt wurden.",
             "features": {
                 "feat1": "Hochladen von Bildern mit Titel, Beschreibung, Urheber, Tags",
                 "feat2": "Überblick sämtlicher hochgeladener Bilder",
@@ -96,8 +99,9 @@
             "subtitle": "Digitale Petition zum Tierschutz (Sample Projekt)",
             "intro1": "Free Orcas ist eine Petition mit deren Hilfe Nutzer durch ihre digitale Unterschrift zur Befreiung von Orcas aufrufen.",
             "intro2": "Nutzer können sich mit ihren Daten registrieren und mittels Maus oder Berührung auf einem mobilen Gerät digital unterzeichnen. Nach der Unterschrift können Nutzer sehen, welche anderen Nutzer ebenfalls unterzeichnet haben (optional nach Stadt gefiltert).",
+            "descPar1": "Auch in diesem Projekt wurde Node.js/Express in Verbindung mit PostgreSQL für das Back-End eingesetzt. Im Front-End wurden JQuery und individuell erstelltes CSS verwendet.",
             "features": {
-                "feat1": "Registrierung / Login / Logout / Account löschen",
+                "feat1": "Nutzerauthentifizierung / Account löschen",
                 "feat2": "Anlegen und bearbeiten des eigenen Nutzerprofils (Name, Passwort, Stadt, Alter, Webseite)",
                 "feat3": "Digitales Unterzeichnen per Maus oder Berührung inkl. Entfernen der Unterschrift",
                 "feat4": "Zugriff auf Informationen zu weiteren Unterzeichnern nur bei eigenem Unterzeichnen",
@@ -153,11 +157,11 @@
     "about": {
         "left": {
             "title": "Über mich",
-            "subtitle": "Auf ein Wort",
+            "subtitle": "Ein paar Worte",
             "par1": "Hi, ich bin Chris – leidenschaftlicher Web Entwickler. Ich liebe es, Produkte aus dem Nichts zu erschaffen. Programmieren gibt mir die einzigartige Möglichkeit, ein digitales Produkt zu schaffen, das nicht nur schön im Auge des Betrachters ist (Front-End) sondern auch sämtliche Funktionalität für ein übergeordnetes System liefert (Back-End).",
             "par2": "Wo viele Menschen nur eine chaotische Aneinanderreihung von Zahlen und Buchstaben sehen und den Kopf in den Sand stecken, fängt bei mir der Spaß erst an. Aus diesem Grund habe ich meine Leidenschaft für Logik und Ästhetik zum Beruf gemacht. Die digitale Welt von Webseiten und Apps birgt eine unbeschreibliche Vielzahl von Möglichkeiten – aber auch Herausforderungen. Genau da komme ich ins Spiel!",
             "par3": "Nach einem abgeschlossenem Studium zum Ingenieur für Erneuerbare Energien habe ich für viele Jahre als Projektmanager bei verschiedenen Unternehmen gearbeitet. Ich konnte viel Erfahrung im Erstellen von validen Strategien und Konzepten, aber speziell auch in der effizienten Projektorganisation gewinnen. Gleichzeitig habe ich mich stetig weiter in die Web Entwicklung vertieft, anfangs verschiedene Projekte für Freunde und Bekannte realisiert und mich letztlich dazu entschieden, diesen Weg weiter und noch intensiver zu verfolgen.",
-            "par4": "Das reichte mir jedoch nicht und ich wollte mein technologisches Fundament auf eine noch breitere Basis stellen. So habe ich entschieden eine zusätzliche Intensivausbildung zum Web Entwickler an der bekannten SPICED Academy zu absolvieren. Dank dem bin ich in der Lage auf die unterschiedlichsten Anforderungen meiner Kunden und Partner zu reagieren und das bestmögliche Ergebnis zu schaffen.",
+            "par4": "Schließlich wollte ich mein technologisches Fundament auf eine noch breitere Basis stellen. So habe ich entschieden eine zusätzliche Intensivausbildung zum Web Entwickler an der bekannten SPICED Academy zu absolvieren. Dank dem bin ich heute in der Lage auf die unterschiedlichsten Anforderungen meiner Kunden und Partner zu reagieren und das bestmögliche Ergebnis zu schaffen.",
             "par5": "Mein Auge für's Detail, gleichzeitig ein Blick für's Große und Ganze und der Fakt, dass man sich immer auf mich verlassen kann, gehören sicherlich zu den Dingen, die mich ausmachen.",
             "btnProjects": "Meine Projekte",
             "btnContact": "Kontakt"

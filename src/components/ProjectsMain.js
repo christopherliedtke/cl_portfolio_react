@@ -30,14 +30,15 @@ function ProjectsMain({ t }) {
                     <div className="col-12 col-lg-7 px-lg-5 logo-bg" style={{ backgroundImage: 'url(/img/logo_mobilecarchecker_400x257.png)' }}>
                         <h2 style={{ color: projects.mobileCarChecker.hex }}>{t('projects.mobileCarChecker.title')}</h2>
                         <h3>{t('projects.mobileCarChecker.subtitle')}</h3>
-                        <p>{t('projects.mobileCarChecker.intro')}</p>
+                        <p>{t('projects.mobileCarChecker.intro1')}</p>
+                        <p>{t('projects.mobileCarChecker.intro2')}</p>
+                        <p>{t('projects.mobileCarChecker.intro3')}</p>
                         <div className="d-flex align-items-center icon-box">
                             {projects.mobileCarChecker.stackIcons.map((icon) => {
                                 return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
                             })}
                         </div>
                         <p>{t('projects.mobileCarChecker.descPar1')}</p>
-                        <p>{t('projects.mobileCarChecker.descPar2')}</p>
                         <h4>Features</h4>
                         <ul>
                             <li>
