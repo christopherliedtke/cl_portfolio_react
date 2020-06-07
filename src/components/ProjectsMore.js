@@ -35,7 +35,7 @@ function ProjectsMore({ t }) {
                     {t('projects.btnMoreProjects')}
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                    <Carousel indicators={false} interval={null}>
+                    <Carousel indicators={false} interval={null} touch={false}>
                         <Carousel.Item>
                             <div className="project px-0" id="stadtUndGruen">
                                 <div className="row px-0 mx-0">
