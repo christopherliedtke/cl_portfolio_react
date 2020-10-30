@@ -34,7 +34,10 @@ function Hero({ t }) {
                         Hi! <strong>{t('hero.me')}</strong>
                         <Typist.Delay ms={1500} />
                         <br />
-                        {t('hero.why')}
+                        {t('hero.why1')}
+                        <Typist.Delay ms={300} />
+                        <br />
+                        {t('hero.why2')}
                         <Typist.Delay ms={300} />
                         <br />
                         <Typist.Delay ms={500} />
@@ -63,7 +66,7 @@ function Hero({ t }) {
                 <div className="row">
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
                         <Zoom left duration={2000}>
-                            <img className="m-4" src="/img/christopherliedtke_filter_500x500.jpg" alt="" />
+                            <img className="m-3" src="/img/christopherliedtke_filter_500x500.jpg" alt="Portrait Christopher Liedtke" />
                         </Zoom>
                     </div>
                     <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start align-items-md-stretch p-5 p-md-2">{typist}</div>

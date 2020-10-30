@@ -7,9 +7,10 @@
         "linkContact": "Contact"
     },
     "hero": {
-        "me": "I am Chris –",
-        "why": "your competent",
-        "desc": "Full Stack Web Developer",
+        "me": "I am Chris.",
+        "why1": "Let's start together",
+        "why2": "and build",
+        "desc": "your perfect website",
         "myProjectsBtn": "My Projects",
         "servicesBtn": "Services"
     },
@@ -46,10 +47,10 @@
             "title": "MFA mal anders",
             "subtitle": "Job and Career Portal for Medical Assistants",
             "intro1": "MFA mal anders is a job and career portal for medical professionals. The website offers a broad portfolio of information about professional development and a job board as a central element.",
-            "intro2": "The website offers a fresh, modern design as well as a simple interface for providing new content. It also provides the possibility to efficiently collect and publish job ads from users. In addition, among other things, the content was optimised with regard to placement in search engines and a recording of usage statistics was set up.",
-            "descPar1": "The implementation was based on the content management system WordPress in combination with various plug-ins and the Elementor page builder. Further individual adjustments were made using PHP.",
+            "intro2": "The website offers a fresh, modern design as well as a simple interface for providing new content. It also gives users the opportunity to register, create job ads and publish them after payment. Furthermore, among other things, the content has been optimized with regard to search engine placement and a collection of user statistics has been set up.",
+            "descPar1": "For the implementation, Vue.js was used in the frontend on the modern JavaScript framework and Node.js in the backend in conjunction with mongoDB and GraphQL. The platform is connected to various APIs, such as Stripe as payment service provider or HERE Maps for mapping job offers. Additionally WordPress is used as a headless content management system.",
             "testimonial": {
-                "text": "With the support of Chris I was able to successfully implement and market the platform. Within a short period of time we managed to generate several thousand hits per month without any paid advertising. His insights have been of immense help",
+                "text": "Together with Chris I was able to successfully implement and market the platform. Within a short period of time we managed to generate several ten thousand hits per month without any paid advertisement. His insights have been of immense help.",
                 "name": "Kristin Maurach",
                 "company": "MFA mal anders"
             }

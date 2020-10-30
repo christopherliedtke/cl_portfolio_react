@@ -59,6 +59,18 @@
         "url": "/img/icons/postgre-brands.svg",
         "alt": "PostgreSQL Logo"
     },
+    "graphql": {
+        "url": "/img/icons/graphql-brands.svg",
+        "alt": "GraphQL Logo"
+    },
+    "stripe": {
+        "url": "/img/icons/stripe-brands.svg",
+        "alt": "Stripe Logo"
+    },
+    "here": {
+        "url": "/img/icons/here-brands.svg",
+        "alt": "HERE Maps Logo"
+    },
     "strapi": {
         "url": "/img/icons/strapi-brands.svg",
         "alt": "Strapi Logo"

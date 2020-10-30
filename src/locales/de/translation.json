@@ -7,9 +7,10 @@
         "linkContact": "Kontakt"
     },
     "hero": {
-        "me": "Ich bin Chris –",
-        "why": "dein kompetenter",
-        "desc": "Full Stack Webentwickler",
+        "me": "Ich bin Chris.",
+        "why1": "Machen wir uns zusammen",
+        "why2": "auf den Weg zu",
+        "desc": "Deiner perfekten Webseite",
         "myProjectsBtn": "Meine Projekte",
         "servicesBtn": "Leistungen"
     },
@@ -44,12 +45,12 @@
         },
         "mfaMalAnders": {
             "title": "MFA mal anders",
-            "subtitle": "Job- und Karriereportal für MFAs",
+            "subtitle": "Karriereportal und Jobbörse für MFAs",
             "intro1": "MFA mal anders ist ein Job- und Karriereportal für medizinische Fachangestellte. Die Webseite bietet ein breites Portfolio an Informationen rund um die Themen Fort- und Weiterbildung sowie eine Jobbörse als zentrales Element.",
-            "intro2": "Die Webseite bietet ein frisches, modernes Design sowie ein einfaches Interface zum Bereitstellen neuer Inhalte. Außerdem gibt es die Möglichkeit, Stellenanzeigen effizient von Nutzern einzusammeln und zu veröffentlichen. Weiterhin wurden unter anderem die Inhalte hinsichtlich einer Platzierung in Suchmaschinen optimiert und eine Erfassung der Nutzungsstatistiken eingerichtet.",
-            "descPar1": "Bei der Umsetzung wurde auf das Content-Management-System WordPress in Verbindung mit verschiedenen PlugIns und dem Page Builder Elementor gesetzt. Mittels PHP wurden weitere individuelle Anpassungen vorgenommen.",
+            "intro2": "Die Webseite bietet ein frisches, modernes Design sowie ein einfaches Interface zum Bereitstellen neuer Inhalte. Außerdem gibt es Nutzern die Möglichkeit, sich anzumelden, Stellenanzeigen zu erstellen und nach erfolgter Zahlung zu veröffentlichen. Weiterhin wurden unter anderem die Inhalte hinsichtlich einer Platzierung in Suchmaschinen optimiert und eine Erfassung der Nutzungsstatistiken eingerichtet.",
+            "descPar1": "Für die Umsetzung wurde im Frontend auf das moderne JavaScript Framework Vue.js sowie im Backend auf Node.js in Verbindung mit mongoDB und GraphQL gesetzt. Die Plattform ist an verschiedene APIs, wie beispielsweise Stripe als Zahlungsdienstleister oder HERE Maps zur Kartierung von Stellenangeboten angebunden. Zusätzlich wird WordPress als  Headless Content Management System genutzt.",
             "testimonial": {
-                "text": "Mit der Unterstützung von Chris konnte ich die Plattform erfolgreich realisieren und vermarkten. Innerhalb kurzer Zeit haben wir es geschafft, ganz ohne Werbung mehrere Tausend Aufrufe pro Monat zu generieren.",
+                "text": "Zusammen mit Chris konnte ich die Plattform erfolgreich realisieren und vermarkten. Innerhalb kurzer Zeit haben wir es geschafft, ganz ohne Werbung mehrere Zehntausend Aufrufe pro Monat zu generieren.",
                 "name": "Kristin Maurach",
                 "company": "MFA mal anders"
             }

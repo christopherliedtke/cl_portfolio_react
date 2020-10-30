@@ -18,13 +18,65 @@ const projects = {
     },
     mfaMalAnders: {
         hex: '#942445',
-        stackIcons: ['wordpress', 'elementor', 'php', 'html', 'css'],
+        stackIcons: ['vue', 'nodeJs', 'graphql', 'mongoDb', 'wordpress', 'stripe', 'here', 'js', 'html', 'css'],
     },
 };
 
 function ProjectsMain({ t }) {
     return (
         <div className="projects container-fuid" id="projects">
+            <div className="container project my-lg-5 py-lg-5" id="mfaMalAnders">
+                <div className="row px-md-5">
+                    <div className="col-12 col-lg-7 px-lg-5 logo-bg" style={{ backgroundImage: 'url(/img/logo_mfamalanders_800.png)' }}>
+                        <h2 style={{ color: projects.mfaMalAnders.hex }}>{t('projects.mfaMalAnders.title')}</h2>
+                        <h3>{t('projects.mfaMalAnders.subtitle')}</h3>
+                        <p>{t('projects.mfaMalAnders.intro1')}</p>
+                        <p>{t('projects.mfaMalAnders.intro2')}</p>
+                        <div className="d-flex align-items-center icon-box">
+                            {projects.mfaMalAnders.stackIcons.map((icon) => {
+                                return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
+                            })}
+                        </div>
+                        <p>{t('projects.mfaMalAnders.descPar1')}</p>
+                        <div className="btn-box">
+                            <a className="btn btn-primary" role="button" href="https://www.mfa-mal-anders.de" target="__blank noopener">
+                                {t('projects.btnPage')}
+                            </a>
+                        </div>
+                        <Fade left duration={2000}>
+                            <div className="testimonial">
+                                <div className="testimonial-bg">
+                                    <FaQuoteRight />
+                                </div>
+                                <div className="col-3 col-md-2 p-0 pl-3">
+                                    <img className="img-fluid rounded-circle imgTestimonial" src="/img/KristinMaurach_testimonial_200x200.jpg" alt="Portrait Kristin Maurach" />
+                                </div>
+                                <div className="col-9 col-md-10">
+                                    <blockquote className="blockquote text-right pr-lg-4">
+                                        <p className="mb-2">{t('projects.mfaMalAnders.testimonial.text')}</p>
+                                        <footer className="blockquote-footer">
+                                            {t('projects.mfaMalAnders.testimonial.name')} | <cite title="Source Title">{t('projects.mfaMalAnders.testimonial.company')}</cite>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="col-12 col-lg-5 img-set pl-5 my-5 py-5">
+                        <div className="img-background" style={{ backgroundColor: projects.mfaMalAnders.hex }}>
+                            <Fade bottom duration={2000}>
+                                <img className="img-desktop" src="/img/MfaMalAnders_notebook_800x450.png" alt="MFA mal anders Dektop Landing Page" />
+                            </Fade>
+                            <Fade bottom duration={2000} delay={750}>
+                                <img className="img-tablet " src="/img/MfaMalAnders_tablet_400x553.png" alt="MFA mal anders Tablet Landing Page" />
+                            </Fade>
+                            <Fade bottom duration={2000} delay={1500}>
+                                <img className="img-mobile " src="/img/MfaMalAnders_mobile_300x594.png" alt="MFA mal anders Mobile Landing Page" />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="container project my-lg-5 py-lg-5" id="mobileCarChecker">
                 <div className="row px-md-5">
                     <div className="col-12 col-lg-7 px-lg-5 logo-bg" style={{ backgroundImage: 'url(/img/logo_mobilecarchecker_400x257.png)' }}>
@@ -126,58 +178,6 @@ function ProjectsMain({ t }) {
                             </Fade>
                             <Fade bottom duration={2000} delay={1500}>
                                 <img className="img-mobile " src="/img/Zuckerrede_mobile_300x594.png" alt="Zuckerrede Mobile Landing Page" />
-                            </Fade>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container project my-lg-5 py-lg-5" id="mfaMalAnders">
-                <div className="row px-md-5">
-                    <div className="col-12 col-lg-7 px-lg-5 logo-bg" style={{ backgroundImage: 'url(/img/logo_mfamalanders_800.png)' }}>
-                        <h2 style={{ color: projects.mfaMalAnders.hex }}>{t('projects.mfaMalAnders.title')}</h2>
-                        <h3>{t('projects.mfaMalAnders.subtitle')}</h3>
-                        <p>{t('projects.mfaMalAnders.intro1')}</p>
-                        <p>{t('projects.mfaMalAnders.intro2')}</p>
-                        <div className="d-flex align-items-center icon-box">
-                            {projects.mfaMalAnders.stackIcons.map((icon) => {
-                                return <img key={icon} className="stack-icon" src={icons[icon].url} alt={icons[icon].alt} />;
-                            })}
-                        </div>
-                        <p>{t('projects.mfaMalAnders.descPar1')}</p>
-                        <div className="btn-box">
-                            <a className="btn btn-primary" role="button" href="https://www.mfa-mal-anders.de" target="__blank noopener">
-                                {t('projects.btnPage')}
-                            </a>
-                        </div>
-                        <Fade left duration={2000}>
-                            <div className="testimonial">
-                                <div className="testimonial-bg">
-                                    <FaQuoteRight />
-                                </div>
-                                <div className="col-3 col-md-2 p-0 pl-3">
-                                    <img className="img-fluid rounded-circle imgTestimonial" src="/img/KristinMaurach_testimonial_200x200.jpg" alt="Portrait Kristin Maurach" />
-                                </div>
-                                <div className="col-9 col-md-10">
-                                    <blockquote className="blockquote text-right pr-lg-4">
-                                        <p className="mb-2">{t('projects.mfaMalAnders.testimonial.text')}</p>
-                                        <footer className="blockquote-footer">
-                                            {t('projects.mfaMalAnders.testimonial.name')} | <cite title="Source Title">{t('projects.mfaMalAnders.testimonial.company')}</cite>
-                                        </footer>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </Fade>
-                    </div>
-                    <div className="col-12 col-lg-5 img-set pl-5 my-5 py-5">
-                        <div className="img-background" style={{ backgroundColor: projects.mfaMalAnders.hex }}>
-                            <Fade bottom duration={2000}>
-                                <img className="img-desktop" src="/img/MfaMalAnders_notebook_800x450.png" alt="MFA mal anders Dektop Landing Page" />
-                            </Fade>
-                            <Fade bottom duration={2000} delay={750}>
-                                <img className="img-tablet " src="/img/MfaMalAnders_tablet_400x553.png" alt="MFA mal anders Tablet Landing Page" />
-                            </Fade>
-                            <Fade bottom duration={2000} delay={1500}>
-                                <img className="img-mobile " src="/img/MfaMalAnders_mobile_300x594.png" alt="MFA mal anders Mobile Landing Page" />
                             </Fade>
                         </div>
                     </div>
