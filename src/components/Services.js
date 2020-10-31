@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { withTranslation } from 'react-i18next';
 
-import { FaLaptopCode, FaGift, FaReact, FaCheckSquare, FaVuejs, FaElementor, FaMailchimp } from 'react-icons/fa';
-import { DiReact, DiBootstrap, DiCss3, DiHtml5, DiGithubBadge, DiGit, DiJsBadge, DiJqueryLogo, DiMongodb, DiNodejsSmall, DiPostgresql, DiPhp, DiRedis, DiSass, DiWordpress, DiGoogleAnalytics } from 'react-icons/di';
+import { FaLaptopCode, FaGift, FaReact, FaCheckSquare, FaVuejs } from 'react-icons/fa';
+import { DiReact, DiBootstrap, DiCss3, DiHtml5, DiGithubBadge, DiGit, DiJsBadge, DiJqueryLogo, DiMongodb, DiNodejsSmall, DiPostgresql, DiRedis, DiSass, DiWordpress, DiGoogleAnalytics } from 'react-icons/di';
 import { GrGatsbyjs } from 'react-icons/gr';
 import { BsThreeDots } from 'react-icons/bs';
 import ReactCardFlip from 'react-card-flip';
@@ -108,8 +108,8 @@ function Services({ t }) {
                                 <OverlayTrigger placement="top" overlay={tooltip('Redis')}>
                                     <DiRedis size={55} />
                                 </OverlayTrigger>
-                                <OverlayTrigger placement="top" overlay={tooltip('PHP')}>
-                                    <DiPhp size={55} />
+                                <OverlayTrigger placement="top" overlay={tooltip('GraphQL')}>
+                                    <img src={icons.graphql.url} width="55" alt="" />
                                 </OverlayTrigger>
                                 <OverlayTrigger placement="top" overlay={tooltip('socket.IO')}>
                                     <img src={icons.socketio.url} width="55" alt="" />
@@ -135,15 +135,16 @@ function Services({ t }) {
                                 <OverlayTrigger placement="top" overlay={tooltip('WordPress')}>
                                     <DiWordpress size={55} />
                                 </OverlayTrigger>
-                                <OverlayTrigger placement="top" overlay={tooltip('Elementor')}>
-                                    <FaElementor size={55} />
-                                </OverlayTrigger>
                                 <OverlayTrigger placement="top" overlay={tooltip('Google Analytics')}>
                                     <DiGoogleAnalytics size={55} />
                                 </OverlayTrigger>
-                                <OverlayTrigger placement="top" overlay={tooltip('Mailchimp')}>
-                                    <FaMailchimp size={55} />
+                                <OverlayTrigger placement="top" overlay={tooltip('Stripe')}>
+                                    <img src={icons.stripe.url} width="55" alt="" />
                                 </OverlayTrigger>
+                                <OverlayTrigger placement="top" overlay={tooltip('HERE Maps')}>
+                                    <img src={icons.here.url} width="55" alt="" />
+                                </OverlayTrigger>
+
                                 <OverlayTrigger placement="top" overlay={tooltip('more...')}>
                                     <BsThreeDots size={55} />
                                 </OverlayTrigger>
